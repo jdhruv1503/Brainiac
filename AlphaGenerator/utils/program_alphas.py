@@ -9,14 +9,18 @@ import random
 import asyncio
 
 # Initialize LlamaParse and Groq
-GroqAPIKeys = ["YCrCszkJghLu9zFNS6exaoJJy7wdjnVQ"]
+GroqAPIKeys = os.environ["DEEPINFRA_API_KEYS"].split(",")
 
-llms = [openai.OpenAI(
-    base_url="https://api.deepinfra.com/v1/openai",
-    api_key=k,
-) for k in GroqAPIKeys]
+llms = [
+    openai.OpenAI(
+        base_url="https://api.deepinfra.com/v1/openai",
+        api_key=k,
+    )
+    for k in GroqAPIKeys
+]
 
 # Assuming the initialization of LlamaParse, Groq, and LLMs is done similarly as in distill_alphas.py
+
 
 def generate_dataset_prompt(alphas, max_tokens=50000):
     if alphas[0]["region"] == "CHN":
@@ -26,7 +30,9 @@ def generate_dataset_prompt(alphas, max_tokens=50000):
     with open(dataset, "r") as f:
         table = f.read()
 
-    truncated_alphas = truncate_alphas([alpha["description"] for alpha in alphas], max_tokens - 1000)  # Reserve tokens for the prompt
+    truncated_alphas = truncate_alphas(
+        [alpha["description"] for alpha in alphas], max_tokens - 1000
+    )  # Reserve tokens for the prompt
 
     prompt = f"""
     You are an AI assistant tasked with analyzing a trading strategy and providing ONLY a JSON list of datasets from a predefined list that are relevant to the strategy. Your task is to thoroughly review the strategy provided below, delineated by [ALPHA]:
@@ -51,6 +57,7 @@ def generate_dataset_prompt(alphas, max_tokens=50000):
     """
     return prompt.strip()
 
+
 def truncate_alphas(alphas, max_tokens):
     truncated_alphas = []
     token_count = 0
@@ -67,6 +74,7 @@ def truncate_alphas(alphas, max_tokens):
             break
 
     return "\n".join(truncated_alphas)
+
 
 def find_datasets_from_alphas(alphas):
     # appended_alphas = []
@@ -90,16 +98,20 @@ def find_datasets_from_alphas(alphas):
 
 
 def generate_code_prompt(alphas, max_tokens=50000):
-    with open(os.path.join("utils","BrainKnowledgebaseSyntax","syntax.md"), "r", errors="ignore", encoding="utf-8") as f:
+    with open(
+        os.path.join("utils", "BrainKnowledgebaseSyntax", "syntax.md"),
+        "r",
+        errors="ignore",
+        encoding="utf-8",
+    ) as f:
         syntax = f.read()
-    
+
     if alphas[0]["region"] == "CHN":
-        dataset = os.path.join("utils","BrainKnowledgebaseSyntax","datasets_chn.md")
+        dataset = os.path.join("utils", "BrainKnowledgebaseSyntax", "datasets_chn.md")
     else:
-        dataset = os.path.join("utils","BrainKnowledgebaseSyntax","datasets_usa.md")
+        dataset = os.path.join("utils", "BrainKnowledgebaseSyntax", "datasets_usa.md")
     with open(dataset, "r") as f:
         table = f.read()
-    
 
     prompt = f"""
     You are an AI assistant tasked with analyzing a trading strategy and providing ONLY a JSON object with the code to the alpha in WorldQuant Fast Expression Language. Your task is to thoroughly review the strategies provided below, delineated by [ALPHA]:
@@ -128,20 +140,23 @@ def create_code_from_alphas(alphas):
     appended_alphas = []
     for alpha in alphas:
         prompt = generate_code_prompt([alpha])
-        res = random.choice(llms).chat.completions.create(messages=[{"role": "user", "content": prompt}], model="mistralai/Mixtral-8x22B-Instruct-v0.1",
-                                               response_format={"type": "json_object"},
-                                               tool_choice="auto",
-                                               temperature=0.13,
-                                               max_tokens=1000)
-        json_text = (res.choices[0].message.content)
-        substring = json_text[json_text.find("{"):json_text.rfind("}") + 1]
+        res = random.choice(llms).chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model="mistralai/Mixtral-8x22B-Instruct-v0.1",
+            response_format={"type": "json_object"},
+            tool_choice="auto",
+            temperature=0.13,
+            max_tokens=1000,
+        )
+        json_text = res.choices[0].message.content
+        substring = json_text[json_text.find("{") : json_text.rfind("}") + 1]
         if substring == "":
             print("Code not generated")
             continue
         print("Code Generated")
         print(substring)
-        try:   
-            datasets =  json.loads(substring, strict=False)
+        try:
+            datasets = json.loads(substring, strict=False)
         except:
             print("Error in JSON")
             continue

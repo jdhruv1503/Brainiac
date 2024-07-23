@@ -1,9 +1,0 @@
-RSI+Bollinger Bands
-Long position:
-• Buy signal when RSI <= 30 and price touches the lower bollinger band.
-• Stoploss sightly below the reccent low.
-• exit trade when RSI touches 40.
-Short position:
-• Sell signal when RSI >= 70 and price touches upper bollinger band.
-• Stoploss slightly above the recent high.
-• Exit trade when RSI touches 60.

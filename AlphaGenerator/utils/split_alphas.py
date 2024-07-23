@@ -10,28 +10,30 @@ import openai
 import json
 
 
-
 # Initialize LlamaParse and Groq
-GroqAPIKeys = ["YCrCszkJghLu9zFNS6exaoJJy7wdjnVQ"]
+GroqAPIKeys = os.environ["DEEPINFRA_API_KEYS"].split(",")
 
-llms = [openai.OpenAI(
-    base_url="https://api.deepinfra.com/v1/openai",
-    api_key=k,
-) for k in GroqAPIKeys]
+llms = [
+    openai.OpenAI(
+        base_url="https://api.deepinfra.com/v1/openai",
+        api_key=k,
+    )
+    for k in GroqAPIKeys
+]
 map = {
-        "fundamental": ["industry"],
-        "analyst": ["industry"],
-        "model": ["industry", "subindustry", "sector", "market"],
-        "news": ["subindustry"],
-        "price-volume": ["market", "sector"],
-        "social-media": ["industry", "subindustry"],
-        "sentiment": ["industry", "subindustry"],
-        "earnings": ["industry"],
-        "macro": ["market", "sector", "industry"]
-    }
+    "fundamental": ["industry"],
+    "analyst": ["industry"],
+    "model": ["industry", "subindustry", "sector", "market"],
+    "news": ["subindustry"],
+    "price-volume": ["market", "sector"],
+    "social-media": ["industry", "subindustry"],
+    "sentiment": ["industry", "subindustry"],
+    "earnings": ["industry"],
+    "macro": ["market", "sector", "industry"],
+}
+
 
 def generate_neutralization_prompt(alpha, max_tokens=50000):
-
 
     prompt = f"""
 You are an AI assistant tasked with analyzing a financial alpha and the datasets used in it and providing ONLY and ONLY a JSON object of classifying the financial alpha into one of a few categories.
@@ -49,6 +51,7 @@ Please write the JSON object ONLY below:
 """
 
     return prompt.strip()
+
 
 def truncate_contents(contents, max_tokens):
     truncated_contents = []
@@ -79,24 +82,29 @@ def prune_datasets(alphas):
         alp["datasets"] = dts
     return new_alphas
 
+
 def split_alphas_neut(alphas):
     appended_alphas = []
     for alpha in alphas:
         prompt = generate_neutralization_prompt([alpha])
-        res = random.choice(llms).chat.completions.create(messages=[{"role": "user", "content": prompt}], model="mistralai/Mistral-7B-Instruct-v0.3",
-                                               response_format={"type": "json_object"},
-                                               tool_choice="auto",
-                                               temperature=0.2,
-                                               max_tokens=1000)
-        json_text = (res.choices[0].message.content)
-        substring = json_text[json_text.find("{"):json_text.rfind("}") + 1]
-        datasets =  json.loads(substring,strict=False)
+        res = random.choice(llms).chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model="mistralai/Mistral-7B-Instruct-v0.3",
+            response_format={"type": "json_object"},
+            tool_choice="auto",
+            temperature=0.2,
+            max_tokens=1000,
+        )
+        json_text = res.choices[0].message.content
+        substring = json_text[json_text.find("{") : json_text.rfind("}") + 1]
+        datasets = json.loads(substring, strict=False)
         print("Neutralizations classified")
         print(substring)
         alphak = alpha
         alphak["neutralizations"] = map[datasets["category"]]
         appended_alphas.append(alphak)
     return appended_alphas
+
 
 def split_alphas_region(alphas):
     new_alphas = []

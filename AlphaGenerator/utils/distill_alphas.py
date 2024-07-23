@@ -10,19 +10,26 @@ import openai
 import json
 
 # Initialize LlamaParse and Groq
-LlamaParseAPIKeys = ["llx-rYKXT1N6DHvtNcuCNBiOOsq9529SpE5hZnmk8Wr6QSkVmkxz"]
-GroqAPIKeys = ["YCrCszkJghLu9zFNS6exaoJJy7wdjnVQ"]
+LlamaParseAPIKeys = os.environ["LLAMA_PARSE_API_KEYS"].split(",")
+GroqAPIKeys = os.environ["DEEPINFRA_API_KEYS"].split(",")
 ModelName = "microsoft/WizardLM-2-8x22B"
 
-llama_parsers = [LlamaParse(api_key=k,
-    result_type="markdown") for k in LlamaParseAPIKeys]
-llms = [openai.OpenAI(
-    base_url="https://api.deepinfra.com/v1/openai",
-    api_key=k,
-) for k in GroqAPIKeys]
+llama_parsers = [
+    LlamaParse(api_key=k, result_type="markdown") for k in LlamaParseAPIKeys
+]
+llms = [
+    openai.OpenAI(
+        base_url="https://api.deepinfra.com/v1/openai",
+        api_key=k,
+    )
+    for k in GroqAPIKeys
+]
+
 
 def generate_distill_prompt(contents, max_tokens=50000):
-    truncated_contents = truncate_contents([content.text for content in contents], max_tokens - 1000)  # Reserve tokens for the prompt
+    truncated_contents = truncate_contents(
+        [content.text for content in contents], max_tokens - 1000
+    )  # Reserve tokens for the prompt
 
     prompt = f"""
 You are an AI assistant tasked with analyzing a financial research paper and providing ONLY and ONLY a JSON list of any trading strategies mentioned in it that you have extracted. The strategies you identify will be used as inputs to an agentic framework that generates alpha expressions.
@@ -55,23 +62,32 @@ Please write the JSON list ONLY below:
 """
     return prompt.strip()
 
+
 def create_alphas_from_paper(content):
-    res = random.choice(llms).chat.completions.create(messages=[{"role":"user", "content": generate_distill_prompt(content)}],     model="microsoft/WizardLM-2-8x22B",
-    response_format={"type":"json_object"},
-    tool_choice="auto",
-    temperature=0.3,
-    max_tokens=5000)
-    json_text = (res.choices[0].message.content)
-    substring = json_text[json_text.find("["):json_text.rfind("]") + 1]
+    res = random.choice(llms).chat.completions.create(
+        messages=[{"role": "user", "content": generate_distill_prompt(content)}],
+        model="microsoft/WizardLM-2-8x22B",
+        response_format={"type": "json_object"},
+        tool_choice="auto",
+        temperature=0.3,
+        max_tokens=5000,
+    )
+    json_text = res.choices[0].message.content
+    substring = json_text[json_text.find("[") : json_text.rfind("]") + 1]
     print("Alphas identified")
     print(substring)
     return json.loads(substring, strict=False)
+
 
 def create_alphas_from_strategy(txtpath):
     with open(txtpath, "r") as f:
         content = f.read()
 
-    return {"trading_strategy": txtpath.split("/")[-1].split("\\")[-1], "description": content}
+    return {
+        "trading_strategy": txtpath.split("/")[-1].split("\\")[-1],
+        "description": content,
+    }
+
 
 def truncate_contents(contents, max_tokens):
     truncated_contents = []
