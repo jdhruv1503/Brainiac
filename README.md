@@ -83,9 +83,9 @@ Your alphas should be stored in a systematic way as a SQLite database `Simulatio
 
 ## 🔮 Future Enhancements
 
-- [] Continous learning and alpha improvement agent framework to be added
-- [] Automated scraping of strategies and SSRN papers
-- [] Integration of USA datasets
+- [ ] Continous learning and alpha improvement agent framework to be added
+- [ ] Automated scraping of strategies and SSRN papers
+- [ ] Integration of USA datasets
 
 ## 🙏 Acknowledgements
 
