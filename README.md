@@ -81,15 +81,16 @@ Now that this is running in the background, dump all your research PDFs into the
 
 Your alphas should be stored in a systematic way as a SQLite database `Simulation/alphas/alpha_results.db`
 
-### 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - [] Continous learning and alpha improvement agent framework to be added
 - [] Automated scraping of strategies and SSRN papers
 - [] Integration of USA datasets
 
-### 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 Special thanks to the incredible [RussellDash332/WQ-Brain](https://github.com/RussellDash332/WQ-Brain) repo, which served as the foundation for the API automation for BRAIN!
+
 
 ---
 _Start building powerful alphas with Brainiac today and revolutionize your quantitative trading strategies! 🚀_
