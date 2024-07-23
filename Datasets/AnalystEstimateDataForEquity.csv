@@ -1,0 +1,147 @@
+Field,Description,Delay,Type,USA,CHN
+anl4_actualqfv4_item,Financial item,1,vector,—,28%
+anl4_adjusted_netincome_ft,Adjusted net income - forecast type (revision/new/...),1,matrix,87%,100%
+anl4_ads1detailafv110_bk,Broker name (int),1,vector,69%,—
+anl4_ads1detailafv110_estvalue,Estimation value,1,vector,69%,—
+anl4_ads1detailafv110_person,Broker Id,1,vector,69%,—
+anl4_ads1detailafv110_prevval,The previous estimation of finanicial item,1,vector,69%,—
+anl4_ads1detailqfv110_bk,Broker name (int),1,vector,63%,—
+anl4_ads1detailqfv110_estvalue,Estimation value,1,vector,63%,—
+anl4_ads1detailqfv110_person,Broker Id,1,vector,63%,—
+anl4_ads1detailqfv110_prevval,The previous estimation of finanicial item,1,vector,63%,—
+anl4_adxqf_down,Number of lower estimations,0,vector,70%,—
+anl4_adxqf_high,The highest estimation,0,vector,70%,—
+anl4_adxqf_low,The lowest estimation,0,vector,70%,—
+anl4_adxqf_mean,Mean of estimations,0,vector,70%,—
+anl4_adxqf_median,Median of estimations,0,vector,70%,—
+anl4_adxqf_numest,The number of forecasts counted in aggregation,0,vector,70%,—
+anl4_adxqf_pu,The number of upper estimations,0,vector,70%,—
+anl4_adxqfv110_down,Number of lower estimations,1,vector,70%,—
+anl4_adxqfv110_high,The highest estimation,1,vector,70%,—
+anl4_adxqfv110_low,The lowest estimation,1,vector,70%,—
+anl4_adxqfv110_mean,Mean of estimations,1,vector,70%,—
+anl4_adxqfv110_median,Median of estimations,1,vector,70%,—
+anl4_adxqfv110_numest,The number of forecasts counted in aggregation,1,vector,70%,—
+anl4_adxqfv110_pu,The number of upper estimations,1,vector,70%,—
+anl4_ady_down,Number of lower estimations,0,vector,72%,—
+anl4_ady_down,Number of lower estimations,1,vector,72%,—
+anl4_ady_high,The highest estimation,0,vector,72%,—
+anl4_ady_high,The highest estimation,1,vector,72%,—
+anl4_ady_low,The lowest estimation,0,vector,72%,—
+anl4_ady_low,The lowest estimation,1,vector,72%,—
+anl4_ady_mean,Mean of estimations,0,vector,72%,—
+anl4_ady_mean,Mean of estimations,1,vector,72%,—
+anl4_ady_median,Median of estimations,0,vector,72%,—
+anl4_ady_median,Median of estimations,1,vector,72%,—
+anl4_ady_numest,The number of forecasts counted in aggregation,0,vector,72%,—
+anl4_ady_numest,The number of forecasts counted in aggregation,1,vector,72%,—
+anl4_ady_pu,The number of upper estimations,0,vector,72%,—
+anl4_ady_pu,The number of upper estimations,1,vector,72%,—
+anl4_afv4_cfps_high,Cash Flow - The highest estimation, per share,1,matrix,—,71%
+anl4_afv4_cfps_low,Cash Flow Per Share - The lowest estimation,1,matrix,—,71%
+anl4_afv4_cfps_mean,Cash Flow Per Share - average of estimations,1,matrix,—,71%
+anl4_afv4_cfps_median,Cash Flow Per Share - Median value among forecasts,1,matrix,—,71%
+anl4_afv4_cfps_number,Cash Flow Per Share - number of estimations,1,matrix,—,71%
+anl4_afv4_div_high,Dividend per share - The highest estimation,1,matrix,—,66%
+anl4_afv4_div_low,Dividend per share - The lowest value among forecasts,1,matrix,—,66%
+anl4_afv4_div_mean,Dividend per share - average of estimations,1,matrix,—,66%
+anl4_afv4_div_median,Dividend per share - median of estimations,1,matrix,—,66%
+anl4_afv4_div_number,Dividend per share - number of estimations,1,matrix,—,66%
+anl4_afv4_div_std,Dividend per share - std of estimations,1,matrix,—,29%
+anl4_afv4_dts_spe,Earnings per share - std of estimations,1,matrix,—,54%
+anl4_afv4_dts_spfc,Cash Flow Per Share - std of estimations,1,matrix,—,35%
+anl4_afv4_eps_high,Earnings per share - The highest estimation,1,matrix,—,88%
+anl4_afv4_eps_low,Earnings per share - The lowest estimation,1,matrix,—,88%
+anl4_afv4_eps_mean,Earnings per share - mean of estimations,1,matrix,—,88%
+anl4_afv4_eps_number,Earnings per share - number of estimations,1,matrix,—,88%
+anl4_afv4_maxguidance,Max guidance value,0,vector,45%,—
+anl4_afv4_median_eps,EPS - aggregation on estimations, 50th-percentile,1,matrix,—,88%
+anl4_afv4_minguidance,Min guidance value,0,vector,45%,—
+anl4_bac1actualqfv110_actual,Announced financial data,1,vector,65%,—
+anl4_bac1actualqfv110_item,Financial item,1,vector,66%,—
+anl4_bac1conaf_item,Financial item,0,vector,73%,—
+anl4_bac1conafv110_item,Financial item,1,vector,73%,—
+anl4_bac1conltv110_item,Financial item,1,vector,70%,—
+anl4_bac1conqf_item,Financial item,0,vector,73%,—
+anl4_bac1conqfv110_item,Financial item,1,vector,73%,—
+anl4_bac1conrecv110_item,Financial item,1,vector,62%,—
+anl4_bac1detailafv110_item,Financial item,1,vector,72%,—
+anl4_bac1detaillt_item,Financial item,1,vector,68%,—
+anl4_bac1detailqfv110_item,Financial item,1,vector,69%,—
+anl4_bac1detailrec_item,Financial item,1,vector,71%,—
+anl4_basicconaf_down,Number of lower estimations,0,vector,73%,—
+anl4_basicconaf_high,The highest estimation,0,vector,73%,—
+anl4_basicconaf_low,The lowest estimation,0,vector,73%,—
+anl4_basicconaf_mean,Mean of estimations,0,vector,73%,—
+anl4_basicconaf_median,Median of estimations,0,vector,73%,—
+anl4_basicconaf_numest,The number of forecasts counted in aggregation,0,vector,73%,—
+anl4_basicconaf_pu,The number of upper estimations,0,vector,73%,—
+anl4_basicconafv110_down,Number of lower estimations,1,vector,73%,—
+anl4_basicconafv110_high,The highest estimation,1,vector,73%,—
+anl4_basicconafv110_low,The lowest estimation,1,vector,73%,—
+anl4_basicconafv110_mean,Mean of estimations,1,vector,73%,—
+anl4_basicconafv110_median,Median of estimations,1,vector,73%,—
+anl4_basicconafv110_numest,The number of forecasts counted in aggregation,1,vector,73%,—
+anl4_basicconafv110_pu,The number of upper estimations,1,vector,73%,—
+anl4_basicconltv110_down,Number of lower estimations,1,vector,70%,—
+anl4_basicconltv110_high,The highest estimation,1,vector,70%,—
+anl4_basicconltv110_low,The lowest estimation,1,vector,70%,—
+anl4_basicconltv110_mean,Mean of estimations,1,vector,70%,—
+anl4_basicconltv110_median,Median of estimations,1,vector,70%,—
+anl4_basicconltv110_numest,The number of forecasts counted in aggregation,1,vector,70%,—
+anl4_basicconltv110_pu,The number of upper estimations,1,vector,70%,—
+anl4_basicconqf_down,Number of lower estimations,0,vector,73%,—
+anl4_basicconqf_high,The highest estimation,0,vector,73%,—
+anl4_basicconqf_low,The lowest estimation,0,vector,73%,—
+anl4_basicconqf_mean,Mean of estimations,0,vector,73%,—
+anl4_basicconqf_median,Median of estimations,0,vector,73%,—
+anl4_basicconqf_numest,The number of forecasts counted in aggregation,0,vector,73%,—
+anl4_basicconqf_pu,The number of upper estimations,0,vector,73%,—
+anl4_basicconqfv110_down,Number of lower estimations,1,vector,73%,—
+anl4_basicconqfv110_high,The highest estimation,1,vector,73%,—
+anl4_basicconqfv110_low,The lowest estimation,1,vector,73%,—
+anl4_basicconqfv110_mean,Mean of estimations,1,vector,73%,—
+anl4_basicconqfv110_median,Median of estimations,1,vector,73%,—
+anl4_basicconqfv110_numest,The number of forecasts counted in aggregation,1,vector,73%,—
+anl4_basicconqfv110_pu,The number of upper estimations,1,vector,73%,—
+anl4_basicdetaillt_bk,Broker name (int),1,vector,68%,—
+anl4_basicdetaillt_estvalue,Estimation value,1,vector,68%,—
+anl4_basicdetaillt_person,Broker Id,1,vector,68%,—
+anl4_basicdetaillt_prevval,The previous estimation of finanicial item,1,vector,68%,—
+anl4_basicdetailqfv110_bk,Broker name (int),1,vector,69%,—
+anl4_basicdetailqfv110_estvalue,Estimation value,1,vector,69%,—
+anl4_basicdetailqfv110_person,Broker Id,1,vector,69%,—
+anl4_basicdetailqfv110_prevval,The previous estimation of finanicial item,1,vector,68%,—
+anl4_basicdetailrec_bk,Broker name (int),1,vector,71%,—
+anl4_basicdetailrec_person,Broker Id,1,vector,71%,—
+anl4_basicdetailrec_ratingvalue,Score on the given instrument,1,vector,71%,—
+anl4_basicqfv4_maxguidance,Max guidance value,0,vector,32%,—
+anl4_basicqfv4_minguidance,Min guidance value,0,vector,32%,—
+anl4_baz1v110_bk,Broker name (int),1,vector,72%,—
+anl4_baz1v110_estvalue,Estimation value,1,vector,72%,—
+anl4_baz1v110_person,Broker Id,1,vector,72%,—
+anl4_baz1v110_prevval,The previous estimation of finanicial item,1,vector,71%,—
+anl4_buy,The number of recommedation s to long the instrument,1,vector,62%,—
+anl4_bvps_flag,Book value per share - forecast type (revision/new/...),1,matrix,82%,100%
+anl4_bvps_high,Book value - the highest estimation, per share,1,matrix,65%,—
+anl4_bvps_low,Book value - the lowest estimation, per share,1,matrix,65%,—
+anl4_bvps_mean,Book value per share - average of estimations,1,matrix,65%,—
+anl4_bvps_median,Book value per share - Median value among forecasts,1,matrix,65%,—
+anl4_bvps_number,Book value per share - number of estimations,1,matrix,65%,—
+anl4_bvps_value,Book value per share - announced financial value,1,matrix,35%,—
+anl4_capex_flag,Capital Expenditures - forecast type (revision/new/...),1,matrix,85%,100%
+anl4_capex_high,Capital Expenditures - The highest estimation,1,matrix,62%,—
+anl4_capex_low,Capital Expenditures - The lowest estimation,1,matrix,62%,—
+anl4_capex_mean,Capital Expenditures - mean of estimations,1,matrix,62%,—
+anl4_capex_number,Capital Expenditures - number of estimations,1,matrix,62%,—
+anl4_capex_std,Capital Expenditures - std of estimations,1,matrix,26%,—
+anl4_capex_value,Capital Expenditures - announced financial value,1,matrix,37%,—
+anl4_cff_flag,Cash Flow From Financing Activities - forecast type (revision/new/...),1,matrix,82%,100%
+anl4_cff_high,Cash Flow From Financing - The highest of forecasted values,1,matrix,59%,—
+anl4_cff_low,Cash Flow From Financing - The lowest estimation,1,matrix,59%,—
+anl4_cff_mean,Cash Flow From Financing - mean of estimations,1,matrix,59%,—
+anl4_cff_median,Cash Flow From Financing Activities - Median value among forecasts,1,matrix,59%,—
+anl4_cff_number,Cash Flow From Financing - number of estimations,1,matrix,59%,—
+anl4_cff_value,Cash Flow From Financing - announced financial value,1,matrix,27%,—
+anl4_cfi_flag,Cash Flow From Investing - forecast type (revision/new/...),1,matrix,83%,100%
+anl4_cfi_high,Cash Flow From Investing - The highest estimation,

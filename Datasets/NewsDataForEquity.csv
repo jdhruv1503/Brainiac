@@ -1,0 +1,734 @@
+Field,Description,Delay,Type,USA,CHN
+nws18_acb,News sentiment specializing in corporate action announcements,0,vector,100%,—
+nws18_acb,News sentiment specializing in corporate action announcements,1,vector,100%,—
+nws18_bam,News sentiment specializing in mergers and acquisitions,0,vector,100%,—
+nws18_bam,News sentiment specializing in mergers and acquisitions,1,vector,100%,—
+nws18_bee,News sentiment specializing in growth of earnings,0,vector,100%,—
+nws18_bee,News sentiment specializing in growth of earnings,1,vector,100%,—
+nws18_ber,News sentiment specializing in earnings result,0,vector,100%,—
+nws18_ber,News sentiment specializing in earnings result,1,vector,100%,—
+nws18_event_relevance,Relevance of the event to the story,0,vector,100%,—
+nws18_event_relevance,Relevance of the event to the story,1,vector,100%,—
+nws18_event_similarity_days,Days since a similar event was detected,0,vector,100%,—
+nws18_event_similarity_days,Days since a similar event was detected,1,vector,100%,—
+nws18_ghc_lna,Change in analyst recommendation,0,vector,100%,—
+nws18_ghc_lna,Change in analyst recommendation,1,vector,100%,—
+nws18_nip,Degree of impact of the news,0,vector,100%,—
+nws18_nip,Degree of impact of the news,1,vector,100%,—
+nws18_qcm,News sentiment of relevant news with high confidence,0,vector,100%,—
+nws18_qcm,News sentiment of relevant news with high confidence,1,vector,100%,—
+nws18_qep,News sentiment based on positive and negative words on global equity,0,vector,100%,—
+nws18_qep,News sentiment based on positive and negative words on global equity,1,vector,100%,—
+nws18_qmb,News sentiment specializing in editorials on global markets,0,vector,100%,—
+nws18_qmb,News sentiment specializing in editorials on global markets,1,vector,100%,—
+nws18_relevance,Relevance of news to the company,0,vector,100%,—
+nws18_relevance,Relevance of news to the company,1,vector,100%,—
+nws18_ssc,Sentiment of the news calculated using multiple techniques,0,vector,100%,—
+nws18_ssc,Sentiment of the news calculated using multiple techniques,1,vector,100%,—
+nws18_sse,Sentiment of phrases impacting the company,0,vector,100%,—
+nws18_sse,Sentiment of phrases impacting the company,1,vector,100%,—
+rp_css_assets,Composite sentiment score of assets news,1,matrix,74%,—
+rp_css_business,Composite sentiment score of business related news,1,matrix,100%,—
+rp_css_credit,Composite sentiment score of credit news,1,matrix,29%,—
+rp_css_credit_ratings,Composite sentiment score of credit ratings news,1,matrix,22%,—
+rp_css_dividends,Composite sentiment score of dividends news,1,matrix,51%,—
+rp_css_earnings,Composite sentiment score of earnings news,1,matrix,98%,—
+rp_css_equity,Composite sentiment score of equity action news,1,matrix,86%,—
+rp_css_insider,Composite sentiment score of insider trading news,1,matrix,67%,—
+rp_css_inverstor,Composite sentiment score of inverstor relations news,1,matrix,93%,—
+rp_css_labor,Composite sentiment score of labor issues news,1,matrix,56%,—
+rp_css_legal,Composite sentiment score of legal news,1,matrix,22%,—
+rp_css_marketing,Composite sentiment score of marketing news,1,matrix,36%,—
+rp_css_mna,Composite sentiment score of mergers and aquisitions related news,1,matrix,68%,—
+rp_css_partner,Composite sentiment score of partnership news,1,matrix,43%,—
+rp_css_price,Composite sentiment score of stock price news,1,matrix,84%,—
+rp_css_product,Composite sentiment score of product and service related news,1,matrix,76%,—
+rp_css_ptg,Composite sentiment score of price target news,1,matrix,38%,—
+rp_css_ratings,Composite sentiment score of analyst ratings related news,1,matrix,76%,—
+rp_css_revenue,Composite sentiment score of revenue news,1,matrix,94%,—
+rp_css_society,Composite sentiment score of society related news,1,matrix,25%,—
+rp_css_technical,Composite sentiment score based on technical analysis,1,matrix,32%,—
+rp_ess_assets,Event sentiment score of assets news,1,matrix,74%,—
+rp_ess_business,Event sentiment score of business related news,1,matrix,100%,—
+rp_ess_credit,Event sentiment score of credit news,1,matrix,29%,—
+rp_ess_credit_ratings,Event sentiment score of credit ratings news,1,matrix,22%,—
+rp_ess_dividends,Event sentiment score of dividends news,1,matrix,51%,—
+rp_ess_earnings,Event sentiment score of earnings news,1,matrix,98%,—
+rp_ess_equity,Event sentiment score of equity action news,1,matrix,86%,—
+rp_ess_insider,Event sentiment score of insider trading news,1,matrix,67%,—
+rp_ess_labor,Event sentiment score of labor issues news,1,matrix,56%,—
+rp_ess_legal,Event sentiment score of legal news,1,matrix,22%,—
+rp_ess_mna,Event sentiment score of mergers and aquisitions related news,1,matrix,68%,—
+rp_ess_partner,Event sentiment score of partnership news,1,matrix,43%,—
+rp_ess_price,Event sentiment score of stock price news,1,matrix,84%,—
+rp_ess_product,Event sentiment score of product and service related news,1,matrix,76%,—
+rp_ess_ptg,Event sentiment score of price target news,1,matrix,38%,—
+rp_ess_ratings,Event sentiment score of analyst ratings related news,1,matrix,76%,—
+rp_ess_revenue,Event sentiment score of revenue news,1,matrix,94%,—
+rp_ess_society,Event sentiment score of society related news,1,matrix,25%,—
+rp_ess_technical,Event sentiment score based on technical analysis,1,matrix,32%,—
+rp_nip_assets,News impact projection of assets news,1,matrix,74%,—
+rp_nip_business,News impact projection of business related news,1,matrix,100%,—
+rp_nip_credit,News impact projection of credit news,1,matrix,29%,—
+rp_nip_credit_ratings,News impact projection of credit ratings news,1,matrix,22%,—
+rp_nip_dividends,News impact projection of dividends news,1,matrix,51%,—
+rp_nip_earnings,News impact projection of earnings news,1,matrix,98%,—
+rp_nip_equity,News impact projection of equity action news,1,matrix,86%,—
+rp_nip_insider,News impact projection of insider trading news,1,matrix,67%,—
+rp_nip_inverstor,News impact projection of inverstor relations news,1,matrix,93%,—
+rp_nip_labor,News impact projection of labor issues news,1,matrix,56%,—
+rp_nip_legal,News impact projection of legal news,1,matrix,22%,—
+rp_nip_marketing,News impact projection of marketing news,1,matrix,36%,—
+rp_nip_mna,News impact projection of mergers and aquisitions related news,1,matrix,68%,—
+rp_nip_partner,News impact projection of partnership news,1,matrix,43%,—
+rp_nip_price,News impact projection of stock price news,1,matrix,84%,—
+rp_nip_product,News impact projection of product and service related news,1,matrix,76%,—
+rp_nip_ptg,News impact projection of price target news,1,matrix,38%,—
+rp_nip_ratings,News impact projection of analyst ratings related news,1,matrix,76%,—
+rp_nip_revenue,News impact projection of revenue news,1,matrix,94%,—
+rp_nip_society,News impact projection of society related news,1,matrix,25%,—
+rp_nip_technical,News impact projection based on technical analysis,1,matrix,32%,— 
+news_all_vwap,Volume weighted average price of all sessions,0,matrix,73%,—
+news_all_vwap,Volume weighted average price of all sessions,1,matrix,73%,—
+news_atr14,Fourteen day Average True Range,0,matrix,90%,—
+news_atr14,Fourteen day Average True Range,1,matrix,89%,—
+news_atr_ratio,Ratio of Today Range to 20 day average true range,0,matrix,80%,—
+news_atr_ratio,Ratio of Today Range to 20 day average true range,1,matrix,80%,—
+news_cap,Reported market capitalization for the calendar day of the session,0,matrix,83%,—
+news_cap,Reported market capitalization for the calendar day of the session,1,matrix,83%,—
+news_close_vol,Main close volume,0,matrix,70%,—
+news_close_vol,Main close volume,1,matrix,69%,—
+news_curr_vol,Current day's session volume,0,matrix,78%,—
+news_curr_vol,Current day's session volume,1,matrix,78%,—
+news_dividend_yield,Annual yield,0,matrix,86%,—
+news_dividend_yield,Annual yield,1,matrix,85%,—
+news_eod_close,Close price of the session,0,matrix,88%,—
+news_eod_close,Close price of the session,1,matrix,88%,—
+news_eod_high,Highest price reached between the time of news and the end of the session,0,matrix,97%,—
+news_eod_high,Highest price reached between the time of news and the end of the session,1,matrix,97%,—
+news_eod_low,Lowest price reached between the time of news and the end of the session.,0,matrix,97%,—
+news_eod_low,Lowest price reached between the time of news and the end of the session.,1,matrix,97%,—
+news_eod_vwap,volume weighted average price between the time of news and the end of the session.,0,matrix,97%,—
+news_eod_vwap,volume weighted average price between the time of news and the end of the session.,1,matrix,97%,—
+news_eps_actual,The actual Earnings Per Share value that was conveyed by the news release,0,matrix,97%,—
+news_eps_actual,The actual Earnings Per Share value that was conveyed by the news release,1,matrix,96%,—
+news_high_exc_stddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,matrix,97%,—
+news_high_exc_stddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,matrix,97%,—
+news_indx_perf,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),0,matrix,97%,—
+news_indx_perf,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),1,matrix,97%,—
+news_low_exc_stddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,matrix,97%,—
+news_low_exc_stddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,matrix,97%,—
+news_ls,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,0,matrix,48%,—
+news_ls,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,1,matrix,49%,—
+news_main_vwap,Main session volume weighted average price,0,matrix,97%,—
+news_main_vwap,Main session volume weighted average price,1,matrix,97%,—
+news_max_dn_amt,The price at the time of the news minus the after the news low,0,matrix,97%,—
+news_max_dn_amt,The price at the time of the news minus the after the news low,1,matrix,97%,—
+news_max_dn_ret,Percent change from the price at the time of the news to the after the news low,0,matrix,97%,—
+news_max_dn_ret,Percent change from the price at the time of the news to the after the news low,1,matrix,97%,—
+news_max_up_amt,The after the news high minus the price at the time of the news,0,matrix,97%,—
+news_max_up_amt,The after the news high minus the price at the time of the news,1,matrix,97%,—
+news_max_up_ret,Percent change from the price at the time of the news to the after the news high,0,matrix,86%,—
+news_max_up_ret,Percent change from the price at the time of the news to the after the news high,1,matrix,85%,—
+news_mins_10_chg,The minimum of L or S above for 10 minute bucket,0,matrix,78%,—
+news_mins_10_chg,The minimum of L or S above for 10 minute bucket,1,matrix,74%,—
+news_mins_10_pct_dn,Number of minutes that elapsed before price went down 10 percentage points,0,matrix,5%,—
+news_mins_10_pct_dn,Number of minutes that elapsed before price went down 10 percentage points,1,matrix,4%,—
+news_mins_10_pct_up,Number of minutes that elapsed before price went up 10 percentage points,0,matrix,67%,—
+news_mins_10_pct_up,Number of minutes that elapsed before price went up 10 percentage points,1,matrix,63%,—
+news_mins_1_chg,The minimum of L or S above for 1 minute bucket,0,matrix,92%,—
+news_mins_1_chg,The minimum of L or S above for 1 minute bucket,1,matrix,92%,—
+news_mins_1_pct_dn,Number of minutes that elapsed before price went down 1 percentage points,0,matrix,85%,—
+news_mins_1_pct_dn,Number of minutes that elapsed before price went down 1 percentage points,1,matrix,83%,—
+news_mins_1_pct_up,Number of minutes that elapsed before price went up 1 percentage points,0,matrix,22%,—
+news_mins_1_pct_up,Number of minutes that elapsed before price went up 1 percentage points,1,matrix,19%,—
+news_mins_20_chg,The minimum of L or S above for 20 minute bucket,0,matrix,92%,—
+news_mins_20_chg,The minimum of L or S above for 20 minute bucket,1,matrix,91%,—
+news_mins_20_pct_dn,Number of minutes that elapsed before price went down 20 percentage points,0,matrix,97%,—
+news_mins_20_pct_dn,Number of minutes that elapsed before price went down 20 percentage points,1,matrix,97%,—
+news_mins_20_pct_up,Number of minutes that elapsed before price went up 20 percentage points,0,matrix,97%,—
+news_mins_20_pct_up,Number of minutes that elapsed before price went up 20 percentage points,1,matrix,97%,—
+news_mins_2_chg,The minimum of L or S above for 2 minute bucket,0,matrix,58%,—
+news_mins_2_chg,The minimum of L or S above for 2 minute bucket,1,matrix,53%,—
+news_mins_2_pct_dn,Number of minutes that elapsed before price went down 2 percentage points,0,matrix,49%,—
+news_mins_2_pct_dn,Number of minutes that elapsed before price went down 2 percentage points,1,matrix,44%,—
+news_mins_2_pct_up,Number of minutes that elapsed before price went up 2 percentage points,0,matrix,32%,—
+news_mins_2_pct_up,Number of minutes that elapsed before price went up 2 percentage points,1,matrix,28%,—
+news_mins_3_chg,The minimum of L or S above for 3 minute bucket,0,matrix,92%,—
+news_mins_3_chg,The minimum of L or S above for 3 minute bucket,1,matrix,92%,—
+news_mins_3_pct_dn,Number of minutes that elapsed before price went down 3 percentage points,0,matrix,92%,—
+news_mins_3_pct_dn,Number of minutes that elapsed before price went down 3 percentage points,1,matrix,92%,—
+news_mins_3_pct_up,Number of minutes that elapsed before price went up 3 percentage points,0,matrix,93%,—
+news_mins_3_pct_up,Number of minutes that elapsed before price went up 3 percentage points,1,matrix,92%,—
+news_mins_4_chg,The minimum of L or S above for 4 minute bucket,0,matrix,93%,—
+news_mins_4_chg,The minimum of L or S above for 4 minute bucket,1,matrix,92%,—
+news_mins_4_pct_dn,Number of minutes that elapsed before price went down 4 percentage points,0,matrix,97%,—
+news_mins_4_pct_dn,Number of minutes that elapsed before price went down 4 percentage points,1,matrix,97%,—
+news_mins_4_pct_up,Number of minutes that elapsed before price went up 4 percentage points,0,matrix,97%,—
+news_mins_4_pct_up,Number of minutes that elapsed before price went up 4 percentage points,1,matrix,97%,—
+news_mins_5_chg,The minimum of L or S above for 5 minute bucket,0,matrix,97%,—
+news_mins_5_chg,The minimum of L or S above for 5 minute bucket,1,matrix,97%,—
+news_mins_5_pct_dn,Number of minutes that elapsed before price went down 5 percentage points,0,matrix,86%,—
+news_mins_5_pct_dn,Number of minutes that elapsed before price went down 5 percentage points,1,matrix,85%,—
+news_mins_5_pct_up,Number of minutes that elapsed before price went up 5 percentage points,0,matrix,93%,—
+news_mins_5_pct_up,Number of minutes that elapsed before price went up 5 percentage points,1,matrix,92%,—
+news_mins_7_5_chg,The minimum of L or S above for 7.5 minute bucket,0,matrix,34%,—
+news_mins_7_5_chg,The minimum of L or S above for 7.5 minute bucket,1,matrix,30%,—
+news_mins_7_5_pct_dn,Number of minutes that elapsed before price went down 7.5 percentage points,0,matrix,90%,—
+news_mins_7_5_pct_dn,Number of minutes that elapsed before price went down 7.5 percentage points,1,matrix,88%,—
+news_mins_7_5_pct_up,Number of minutes that elapsed before price went up 7.5 percentage points,0,matrix,9%,—
+news_mins_7_5_pct_up,Number of minutes that elapsed before price went up 7.5 percentage points,1,matrix,7%,—
+news_mov_vol,30 day moving average session volume,0,matrix,84%,—
+news_mov_vol,30 day moving average session volume,1,matrix,80%,—
+news_open,Price at the session open,0,matrix,76%,—
+news_open,Price at the session open,1,matrix,71%,—
+news_open_gap,(DayOpen - PrevClose) / PrevClose.,0,matrix,67%,—
+news_open_gap,(DayOpen - PrevClose) / PrevClose.,1,matrix,62%,—
+news_open_vol,Main open volume,0,matrix,48%,—
+news_open_vol,Main open volume,1,matrix,44%,—
+news_pct_10min,The percent change in price in the first 10minutes following the news release,0,matrix,77%,—
+news_pct_10min,The percent change in price in the first 10 minutes following the news release,1,matrix,77%,—
+news_pct_120min,The percent change in price in the first 120 minutes following the news release,0,matrix,91%,—
+news_pct_120min,The percent change in price in the first 120 minutes following the news release,1,matrix,91%,—
+news_pct_1min,The percent change in price in the first minute following the news release,0,matrix,97%,—
+news_pct_1min,The percent change in price in the first minute following the news release,1,matrix,97%,—
+news_pct_30min,The percent change in price in the first 30 minutes following the news release,0,matrix,97%,—
+news_pct_30min,The percent change in price in the first 30 minutes following the news release,1,matrix,97%,—
+news_pct_30sec,The percent change in price in the 30 seconds following the news release,0,matrix,97%,—
+news_pct_30sec,The percent change in price in the 30 seconds following the news release,1,matrix,97%,—
+news_pct_5_min,The percent change in price in the first 5 minutes following the news release,0,matrix,80%,—
+news_pct_5_min,The percent change in price in the first 5 minutes following the news release,1,matrix,77%,—
+news_pct_60min,The percent change in price in the first 60 minutes following the news release,0,matrix,97%,—
+news_pct_60min,The percent change in price in the first 60 minutes following the news release,1,matrix,97%,—
+news_pct_90min,The percent change in price in the first 90 minutes following the news release,0,matrix,97%,—
+news_pct_90min,The percent change in price in the first 90 minutes following the news release,1,matrix,97%,—
+news_pe_ratio,Reported price to earnings ratio for the calendar day of the session,0,matrix,97%,—
+news_pe_ratio,Reported price to earnings ratio for the calendar day of the session,1,matrix,97%,—
+news_post_vwap,Post session volume weighted average price,0,matrix,97%,—
+news_post_vwap,Post session volume weighted average price,1,matrix,97%,—
+news_pre_vwap,Pre session volume weighted average price,0,matrix,85%,—
+news_pre_vwap,Pre session volume weighted average price,1,matrix,83%,—
+news_prev_close,Previous trading day's close price,0,matrix,20%,—
+news_prev_close,Previous trading day's close price,1,matrix,17%,—
+news_prev_day_ret,Percent change between the previous day's open and close,0,matrix,77%,—
+news_prev_day_ret,Percent change between the previous day's open and close,1,matrix,73%,—
+news_prev_vol,Previous day's session volume,0,matrix,5%,—
+news_prev_vol,Previous day's session volume,1,matrix,4%,—
+news_range_stddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,0,matrix,67%,—
+news_range_stddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,1,matrix,62%,—
+news_ratio_vol,Curr_Vol / Mov_Vol,0,matrix,56%,—
+news_ratio_vol,Curr_Vol / Mov_Vol,1,matrix,51%,—
+news_session_range,Session High Price - Session Low Price,0,matrix,47%,—
+news_session_range,Session High Price - Session Low Price,1,matrix,42%,—
+news_session_range_pct,Session High Price - Session Low Price) / Session Low Price.,0,matrix,31%,—
+news_session_range_pct,Session High Price - Session Low Price) / Session Low Price.,1,matrix,27%,—
+news_short_interest,Total number of shares sold short divided by total number of shares outstanding,0,matrix,86%,—
+news_short_interest,Total number of shares sold short divided by total number of shares outstanding,1,matrix,87%,—
+news_spy_close,Price of SPY at close of session,0,matrix,97%,—
+news_spy_close,Price of SPY at close of session,1,matrix,97%,—
+news_spy_last,Last Price of the SPY at the time of the news,0,matrix,97%,—
+news_spy_last,Last Price of the SPY at the time of the news,1,matrix,97%,—
+news_ton_high,Highest price reached during the session before the time of news,0,matrix,97%,—
+news_ton_high,Highest price reached during the session before the time of news,1,matrix,97%,—
+news_ton_last,Price at the time of news,0,matrix,97%,—
+news_ton_last,Price at the time of news,1,matrix,97%,—
+news_ton_low,Lowest price reached during the session before the time of the news,0,matrix,97%,—
+news_ton_low,Lowest price reached during the session before the time of the news,1,matrix,97%,—
+news_tot_ticks,Total number of ticks for the trading day,0,matrix,97%,—
+news_tot_ticks,Total number of ticks for the trading day,1,matrix,97%,—
+news_vol_stddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,0,matrix,97%,—
+news_vol_stddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,1,matrix,97%,—
+nws12_afterhsz_01l,Number of minutes that elapsed before price went up 10 percentage points,0,vector,71%,—
+nws12_afterhsz_01l,Number of minutes that elapsed before price went up 10 percentage points,1,vector,71%,—
+nws12_afterhsz_01p,The minimum of L or S above for 10 minute bucket,0,vector,71%,—
+nws12_afterhsz_01p,The minimum of L or S above for 10 minute bucket,1,vector,71%,—
+nws12_afterhsz_01s,Number of minutes that elapsed before price went down 10 percentage points,0,vector,71%,—
+nws12_afterhsz_01s,Number of minutes that elapsed before price went down 10 percentage points,1,vector,71%,—
+nws12_afterhsz_02l,Number of minutes that elapsed before price went up 20 percentage points,0,vector,71%,—
+nws12_afterhsz_02l,Number of minutes that elapsed before price went up 20 percentage points,1,vector,71%,—
+nws12_afterhsz_02p,The minimum of L or S above for 20 minute bucket,0,vector,71%,—
+nws12_afterhsz_02p,The minimum of L or S above for 20 minute bucket,1,vector,71%,—
+nws12_afterhsz_02s,Number of minutes that elapsed before price went down 20 percentage points,0,vector,71%,—
+nws12_afterhsz_02s,Number of minutes that elapsed before price went down 20 percentage points,1,vector,71%,—
+nws12_afterhsz_10_min,The percent change in price in the first 10 minutes following the news release,0,vector,37%,—
+nws12_afterhsz_10_min,The percent change in price in the first 10 minutes following the news release,1,vector,37%,—
+nws12_afterhsz_120_min,The percent change in price in the first 120 minutes following the news release,0,vector,46%,—
+nws12_afterhsz_120_min,The percent change in price in the first 120 minutes following the news release,1,vector,46%,—
+nws12_afterhsz_1_minute,The percent change in price in the first minute following the news release,0,vector,25%,—
+nws12_afterhsz_1_minute,The percent change in price in the first minute following the news release,1,vector,26%,—
+nws12_afterhsz_1l,Number of minutes that elapsed before price went up 1 percentage points,0,vector,71%,—
+nws12_afterhsz_1l,Number of minutes that elapsed before price went up 1 percentage points,1,vector,71%,—
+nws12_afterhsz_1p,The minimum of L or S above for 1 minute bucket,0,vector,71%,—
+nws12_afterhsz_1p,The minimum of L or S above for 1 minute bucket,1,vector,71%,—
+nws12_afterhsz_1s,Number of minutes that elapsed before price went down 1 percentage points,0,vector,71%,—
+nws12_afterhsz_1s,Number of minutes that elapsed before price went down 1 percentage points,1,vector,71%,—
+nws12_afterhsz_2l,Number of minutes that elapsed before price went up 2 percentage points,0,vector,71%,—
+nws12_afterhsz_2l,Number of minutes that elapsed before price went up 2 percentage points,1,vector,71%,—
+nws12_afterhsz_2p,The minimum of L or S above for 2 minute bucket,0,vector,71%,—
+nws12_afterhsz_2p,The minimum of L or S above for 2 minute bucket,1,vector,71%,—
+nws12_afterhsz_2s,Number of minutes that elapsed before price went down 2 percentage points,0,vector,71%,—
+nws12_afterhsz_2s,Number of minutes that elapsed before price went down 2 percentage points,1,vector,71%,—
+nws12_afterhsz_30_min,The percent change in price in the first 30 minutes following the news release,0,vector,42%,—
+nws12_afterhsz_30_min,The percent change in price in the first 30 minutes following the news release,1,vector,42%,—
+nws12_afterhsz_3l,Number of minutes that elapsed before price went up 3 percentage points,0,vector,71%,—
+nws12_afterhsz_3l,Number of minutes that elapsed before price went up 3 percentage points,1,vector,71%,—
+nws12_afterhsz_3p,The minimum of L or S above for 3 minute bucket,0,vector,71%,—
+nws12_afterhsz_3p,The minimum of L or S above for 3 minute bucket,1,vector,71%,—
+nws12_afterhsz_3s,Number of minutes that elapsed before price went down 3 percentage points,0,vector,71%,—
+nws12_afterhsz_3s,Number of minutes that elapsed before price went down 3 percentage points,1,vector,71%,—
+nws12_afterhsz_41rta,Fourteen day Average True Range,0,vector,71%,—
+nws12_afterhsz_41rta,Fourteen day Average True Range,1,vector,71%,—
+nws12_afterhsz_4l,Number of minutes that elapsed before price went up 4 percentage points,0,vector,71%,—
+nws12_afterhsz_4l,Number of minutes that elapsed before price went up 4 percentage points,1,vector,71%,—
+nws12_afterhsz_4p,The minimum of L or S above for 4 minute bucket,0,vector,71%,—
+nws12_afterhsz_4p,The minimum of L or S above for 4 minute bucket,1,vector,71%,—
+nws12_afterhsz_4s,Number of minutes that elapsed before price went down 4 percentage points,0,vector,71%,—
+nws12_afterhsz_4s,Number of minutes that elapsed before price went down 4 percentage points,1,vector,71%,—
+nws12_afterhsz_57l,Number of minutes that elapsed before price went up 7.5 percentage points,0,vector,71%,—
+nws12_afterhsz_57l,Number of minutes that elapsed before price went up 7.5 percentage points,1,vector,71%,—
+nws12_afterhsz_57p,The minimum of L or S above for 7.5 minute bucket,0,vector,71%,—
+nws12_afterhsz_57p,The minimum of L or S above for 7.5 minute bucket,1,vector,71%,—
+nws12_afterhsz_57s,Number of minutes that elapsed before price went down 7.5 percentage points,0,vector,71%,—
+nws12_afterhsz_57s,Number of minutes that elapsed before price went down 7.5 percentage points,1,vector,71%,—
+nws12_afterhsz_5_min,The percent change in price in the first 5 minutes following the news release,0,vector,33%,—
+nws12_afterhsz_5_min,The percent change in price in the first 5 minutes following the news release,1,vector,33%,—
+nws12_afterhsz_5l,Number of minutes that elapsed before price went up 5 percentage points,0,vector,71%,—
+nws12_afterhsz_5l,Number of minutes that elapsed before price went up 5 percentage points,1,vector,71%,—
+nws12_afterhsz_5p,The minimum of L or S above for 5 minute bucket,0,vector,71%,—
+nws12_afterhsz_5p,The minimum of L or S above for 5 minute bucket,1,vector,71%,—
+nws12_afterhsz_5s,Number of minutes that elapsed before price went down 5 percentage points,0,vector,71%,—
+nws12_afterhsz_5s,Number of minutes that elapsed before price went down 5 percentage points,1,vector,71%,—
+nws12_afterhsz_60_min,The percent change in price in the first 60 minutes following the news release,0,vector,44%,—
+nws12_afterhsz_60_min,The percent change in price in the first 60 minutes following the news release,1,vector,44%,—
+nws12_afterhsz_90_min,The percent change in price in the first 90 minutes following the news release,0,vector,45%,—
+nws12_afterhsz_90_min,The percent change in price in the first 90 minutes following the news release,1,vector,45%,—
+nws12_afterhsz_allticks,Total number of ticks for the trading day,0,vector,71%,—
+nws12_afterhsz_allticks,Total number of ticks for the trading day,1,vector,71%,—
+nws12_afterhsz_atrratio,Ratio of Today Range to 20 day average true range,0,vector,64%,—
+nws12_afterhsz_atrratio,Ratio of Today Range to 20 day average true range,1,vector,64%,—
+nws12_afterhsz_close_vol,Main close volume,0,vector,55%,—
+nws12_afterhsz_close_vol,Main close volume,1,vector,55%,—
+nws12_afterhsz_curr_vol,Current day's session volume,0,vector,71%,—
+nws12_afterhsz_curr_vol,Current day's session volume,1,vector,71%,—
+nws12_afterhsz_dayopen,Price at the session open,0,vector,71%,—
+nws12_afterhsz_dayopen,Price at the session open,1,vector,71%,—
+nws12_afterhsz_div_y,Annual yield,0,vector,33%,—
+nws12_afterhsz_div_y,Annual yield,1,vector,33%,—
+nws12_afterhsz_eodclose,Close price of the session,0,vector,71%,—
+nws12_afterhsz_eodclose,Close price of the session,1,vector,71%,—
+nws12_afterhsz_eodhigh,Highest price reached between the time of news and the end of the session,0,vector,65%,—
+nws12_afterhsz_eodhigh,Highest price reached between the time of news and the end of the session,1,vector,65%,—
+nws12_afterhsz_eodlow,Lowest price reached between the time of news and the end of the session.,0,vector,65%,—
+nws12_afterhsz_eodlow,Lowest price reached between the time of news and the end of the session.,1,vector,65%,—
+nws12_afterhsz_eodvwap,volume weighted average price between the time of news and the end of the session.,0,vector,56%,—
+nws12_afterhsz_eodvwap,volume weighted average price between the time of news and the end of the session.,1,vector,56%,—
+nws12_afterhsz_epsactual,The actual Earnings Per Share value that was conveyed by the news release,0,vector,38%,—
+nws12_afterhsz_epsactual,The actual Earnings Per Share value that was conveyed by the news release,1,vector,38%,—
+nws12_afterhsz_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,64%,—
+nws12_afterhsz_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,64%,—
+nws12_afterhsz_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,64%,—
+nws12_afterhsz_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,64%,—
+nws12_afterhsz_mainvwap,Main session volume weighted average price,0,vector,55%,—
+nws12_afterhsz_mainvwap,Main session volume weighted average price,1,vector,55%,—
+nws12_afterhsz_maxdnamt,The price at the time of the news minus the after the news low,0,vector,65%,—
+nws12_afterhsz_maxdnamt,The price at the time of the news minus the after the news low,1,vector,65%,—
+nws12_afterhsz_maxdown,Percent change from the price at the time of the news to the after the news low,0,vector,65%,—
+nws12_afterhsz_maxdown,Percent change from the price at the time of the news to the after the news low,1,vector,65%,—
+nws12_afterhsz_maxup,Percent change from the price at the time of the news to the after the news high,0,vector,65%,—
+nws12_afterhsz_maxup,Percent change from the price at the time of the news to the after the news high,1,vector,65%,—
+nws12_afterhsz_maxupamt,The after the news high minus the price at the time of the news,0,vector,65%,—
+nws12_afterhsz_maxupamt,The after the news high minus the price at the time of the news,1,vector,65%,—
+nws12_afterhsz_mktcap,Reported market capitalization for the calendar day of the session,0,vector,71%,—
+nws12_afterhsz_mktcap,Reported market capitalization for the calendar day of the session,1,vector,71%,—
+nws12_afterhsz_mov_vol,30 day moving average session volume,0,vector,71%,—
+nws12_afterhsz_mov_vol,30 day moving average session volume,1,vector,71%,—
+nws12_afterhsz_newrecord,Tracks whether the news is first instance or a duplicate,0,vector,71%,—
+nws12_afterhsz_newrecord,Tracks whether the news is first instance or a duplicate,1,vector,71%,—
+nws12_afterhsz_newssess,Index of session in which the news was reported,0,vector,71%,—
+nws12_afterhsz_newssess,Index of session in which the news was reported,1,vector,71%,—
+nws12_afterhsz_open_vol,Main open volume,0,vector,55%,—
+nws12_afterhsz_open_vol,Main open volume,1,vector,55%,—
+nws12_afterhsz_opengap,(DayOpen - PrevClose) / PrevClose.,0,vector,71%,—
+nws12_afterhsz_opengap,(DayOpen - PrevClose) / PrevClose.,1,vector,71%,—
+nws12_afterhsz_peratio,Reported price to earnings ratio for the calendar day of the session,0,vector,55%,—
+nws12_afterhsz_peratio,Reported price to earnings ratio for the calendar day of the session,1,vector,55%,—
+nws12_afterhsz_postvwap,Post session volume weighted average price,0,vector,71%,—
+nws12_afterhsz_postvwap,Post session volume weighted average price,1,vector,71%,—
+nws12_afterhsz_prev_vol,Previous day's session volume,0,vector,67%,—
+nws12_afterhsz_prev_vol,Previous day's session volume,1,vector,67%,—
+nws12_afterhsz_prevclose,Previous trading day's close price,0,vector,71%,—
+nws12_afterhsz_prevclose,Previous trading day's close price,1,vector,71%,—
+nws12_afterhsz_prevday,Percent change between the previous day's open and close,0,vector,71%,—
+nws12_afterhsz_prevday,Percent change between the previous day's open and close,1,vector,71%,—
+nws12_afterhsz_prevwap,Pre session volume weighted average price,0,vector,38%,—
+nws12_afterhsz_prevwap,Pre session volume weighted average price,1,vector,38%,—
+nws12_afterhsz_provider,index of name of the news provider,0,vector,71%,—
+nws12_afterhsz_provider,index of name of the news provider,1,vector,71%,—
+nws12_afterhsz_range,Session High Price - Session Low Price) / Session Low Price.,0,vector,65%,—
+nws12_afterhsz_range,Session High Price - Session Low Price) / Session Low Price.,1,vector,65%,—
+nws12_afterhsz_rangeamt,Session High Price - Session Low Price,0,vector,65%,—
+nws12_afterhsz_rangeamt,Session High Price - Session Low Price,1,vector,65%,—
+nws12_afterhsz_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,0,vector,62%,—
+nws12_afterhsz_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,1,vector,62%,—
+nws12_afterhsz_reportsess,Index of Session on which the spreadsheet is reporting,0,vector,71%,—
+nws12_afterhsz_reportsess,Index of Session on which the spreadsheet is reporting,1,vector,71%,—
+nws12_afterhsz_result1,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,71%,—
+nws12_afterhsz_result1,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,71%,—
+nws12_afterhsz_result2,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,71%,—
+nws12_afterhsz_result2,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,71%,—
+nws12_afterhsz_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),0,vector,71%,—
+nws12_afterhsz_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),1,vector,71%,—
+nws12_afterhsz_short_interest,Total number of shares sold short divided by total number of shares outstanding,0,vector,60%,—
+nws12_afterhsz_short_interest,Total number of shares sold short divided by total number of shares outstanding,1,vector,60%,—
+nws12_afterhsz_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,0,vector,71%,—
+nws12_afterhsz_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,1,vector,71%,—
+nws12_afterhsz_spyclose,Price of SPY at close of session,0,vector,71%,—
+nws12_afterhsz_spyclose,Price of SPY at close of session,1,vector,71%,—
+nws12_afterhsz_spylast,Last Price of the SPY at the time of the news,0,vector,71%,—
+nws12_afterhsz_spylast,Last Price of the SPY at the time of the news,1,vector,71%,—
+nws12_afterhsz_tonhigh,Highest price reached during the session before the time of news,0,vector,71%,—
+nws12_afterhsz_tonhigh,Highest price reached during the session before the time of news,1,vector,71%,—
+nws12_afterhsz_tonlast,Price at the time of news,0,vector,71%,—
+nws12_afterhsz_tonlast,Price at the time of news,1,vector,71%,—
+nws12_afterhsz_tonlow,Lowest price reached during the session before the time of the news,0,vector,71%,—
+nws12_afterhsz_tonlow,Lowest price reached during the session before the time of the news,1,vector,71%,—
+nws12_afterhsz_vol_ratio,Curr_Vol / Mov_Vol,0,vector,71%,—
+nws12_afterhsz_vol_ratio,Curr_Vol / Mov_Vol,1,vector,71%,—
+nws12_afterhsz_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,0,vector,71%,—
+nws12_afterhsz_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,1,vector,71%,—
+nws12_allz_newrecord,Tracks whether the news is first instance or a duplicate,0,vector,97%,—
+nws12_allz_newrecord,Tracks whether the news is first instance or a duplicate,1,vector,97%,—
+nws12_allz_newssess,Index of session in which the news was reported,0,vector,97%,—
+nws12_allz_newssess,Index of session in which the news was reported,1,vector,97%,—
+nws12_allz_provider,index of name of the news provider,0,vector,97%,—
+nws12_allz_provider,index of name of the news provider,1,vector,97%,—
+nws12_allz_reportsess,Index of Session on which the spreadsheet is reporting,0,vector,97%,—
+nws12_allz_reportsess,Index of Session on which the spreadsheet is reporting,1,vector,97%,—
+nws12_allz_result1,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,97%,—
+nws12_allz_result1,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,97%,—
+nws12_allz_result2,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,97%,—
+nws12_allz_result2,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,97%,—
+nws12_mainz_01l,Number of minutes that elapsed before price went up 10 percentage points,0,vector,97%,—
+nws12_mainz_01l,Number of minutes that elapsed before price went up 10 percentage points,1,vector,97%,—
+nws12_mainz_01p,The minimum of L or S above for 10 minute bucket,0,vector,97%,—
+nws12_mainz_01p,The minimum of L or S above for 10 minute bucket,1,vector,97%,—
+nws12_mainz_01s,Number of minutes that elapsed before price went down 10 percentage points,0,vector,97%,—
+nws12_mainz_01s,Number of minutes that elapsed before price went down 10 percentage points,1,vector,97%,—
+nws12_mainz_02l,Number of minutes that elapsed before price went up 20 percentage points,0,vector,97%,—
+nws12_mainz_02l,Number of minutes that elapsed before price went up 20 percentage points,1,vector,97%,—
+nws12_mainz_02p,The minimum of L or S above for 20 minute bucket,0,vector,97%,—
+nws12_mainz_02p,The minimum of L or S above for 20 minute bucket,1,vector,97%,—
+nws12_mainz_02s,Number of minutes that elapsed before price went down 20 percentage points,0,vector,97%,—
+nws12_mainz_02s,Number of minutes that elapsed before price went down 20 percentage points,1,vector,97%,—
+nws12_mainz_10_min,The percent change in price in the first 10 minutes following the news release,0,vector,96%,—
+nws12_mainz_10_min,The percent change in price in the first 10 minutes following the news release,1,vector,96%,—
+nws12_mainz_120_min,The percent change in price in the first 120 minutes following the news release,0,vector,97%,—
+nws12_mainz_120_min,The percent change in price in the first 120 minutes following the news release,1,vector,97%,—
+nws12_mainz_1_minute,The percent change in price in the first minute following the news release,0,vector,94%,—
+nws12_mainz_1_minute,The percent change in price in the first minute following the news release,1,vector,94%,—
+nws12_mainz_1l,Number of minutes that elapsed before price went up 1 percentage points,0,vector,97%,—
+nws12_mainz_1l,Number of minutes that elapsed before price went up 1 percentage points,1,vector,97%,—
+nws12_mainz_1p,The minimum of L or S above for 1 minute bucket,0,vector,97%,—
+nws12_mainz_1p,The minimum of L or S above for 1 minute bucket,1,vector,97%,—
+nws12_mainz_1s,Number of minutes that elapsed before price went down 1 percentage points,0,vector,97%,—
+nws12_mainz_1s,Number of minutes that elapsed before price went down 1 percentage points,1,vector,97%,—
+nws12_mainz_2l,Number of minutes that elapsed before price went up 2 percentage points,0,vector,97%,—
+nws12_mainz_2l,Number of minutes that elapsed before price went up 2 percentage points,1,vector,97%,—
+nws12_mainz_2p,The minimum of L or S above for 2 minute bucket,0,vector,97%,—
+nws12_mainz_2p,The minimum of L or S above for 2 minute bucket,1,vector,97%,—
+nws12_mainz_2s,Number of minutes that elapsed before price went down 2 percentage points,0,vector,97%,—
+nws12_mainz_2s,Number of minutes that elapsed before price went down 2 percentage points,1,vector,97%,—
+nws12_mainz_30_min,The percent change in price in the first 30 minutes following the news release,0,vector,97%,—
+nws12_mainz_30_min,The percent change in price in the first 30 minutes following the news release,1,vector,97%,—
+nws12_mainz_30_seconds,The percent change in price in the 30 seconds following the news release,0,vector,91%,—
+nws12_mainz_30_seconds,The percent change in price in the 30 seconds following the news release,1,vector,91%,—
+nws12_mainz_3l,Number of minutes that elapsed before price went up 3 percentage points,0,vector,97%,—
+nws12_mainz_3l,Number of minutes that elapsed before price went up 3 percentage points,1,vector,97%,—
+nws12_mainz_3p,The minimum of L or S above for 3 minute bucket,0,vector,97%,—
+nws12_mainz_3p,The minimum of L or S above for 3 minute bucket,1,vector,97%,—
+nws12_mainz_3s,Number of minutes that elapsed before price went down 3 percentage points,0,vector,97%,—
+nws12_mainz_3s,Number of minutes that elapsed before price went down 3 percentage points,1,vector,97%,—
+nws12_mainz_41rta,Fourteen day Average True Range,0,vector,97%,—
+nws12_mainz_41rta,Fourteen day Average True Range,1,vector,97%,—
+nws12_mainz_4l,Number of minutes that elapsed before price went up 4 percentage points,0,vector,97%,—
+nws12_mainz_4l,Number of minutes that elapsed before price went up 4 percentage points,1,vector,97%,—
+nws12_mainz_4p,The minimum of L or S above for 4 minute bucket,0,vector,97%,—
+nws12_mainz_4p,The minimum of L or S above for 4 minute bucket,1,vector,97%,—
+nws12_mainz_4s,Number of minutes that elapsed before price went down 4 percentage points,0,vector,97%,—
+nws12_mainz_4s,Number of minutes that elapsed before price went down 4 percentage points,1,vector,97%,—
+nws12_mainz_57l,Number of minutes that elapsed before price went up 7.5 percentage points,0,vector,97%,—
+nws12_mainz_57l,Number of minutes that elapsed before price went up 7.5 percentage points,1,vector,97%,—
+nws12_mainz_57p,The minimum of L or S above for 7.5 minute bucket,0,vector,97%,—
+nws12_mainz_57p,The minimum of L or S above for 7.5 minute bucket,1,vector,97%,—
+nws12_mainz_57s,Number of minutes that elapsed before price went down 7.5 percentage points,0,vector,97%,—
+nws12_mainz_57s,Number of minutes that elapsed before price went down 7.5 percentage points,1,vector,97%,—
+nws12_mainz_5_min,The percent change in price in the first 5 minutes following the news release,0,vector,96%,—
+nws12_mainz_5_min,The percent change in price in the first 5 minutes following the news release,1,vector,96%,—
+nws12_mainz_5l,Number of minutes that elapsed before price went up 5 percentage points,0,vector,97%,—
+nws12_mainz_5l,Number of minutes that elapsed before price went up 5 percentage points,1,vector,97%,—
+nws12_mainz_5p,The minimum of L or S above for 5 minute bucket,0,vector,97%,—
+nws12_mainz_5p,The minimum of L or S above for 5 minute bucket,1,vector,97%,—
+nws12_mainz_5s,Number of minutes that elapsed before price went down 5 percentage points,0,vector,97%,—
+nws12_mainz_5s,Number of minutes that elapsed before price went down 5 percentage points,1,vector,97%,—
+nws12_mainz_60_min,Thepercent change in price in the first 60 minutes following the news release,0,vector,97%,—
+nws12_mainz_60_min,The percent change in price in the first 60 minutes following the news release,1,vector,97%,—
+nws12_mainz_90_min,The percent change in price in the first 90 minutes following the news release,0,vector,97%,—
+nws12_mainz_90_min,The percent change in price in the first 90 minutes following the news release,1,vector,97%,—
+nws12_mainz_allticks,Total number of ticks for the trading day,0,vector,97%,—
+nws12_mainz_allticks,Total number of ticks for the trading day,1,vector,97%,—
+nws12_mainz_allvwap,Volume weighted average price of all sessions,0,vector,95%,—
+nws12_mainz_allvwap,Volume weighted average price of all sessions,1,vector,95%,—
+nws12_mainz_atrratio,Ratio of Today Range to 20 day average true range,0,vector,97%,—
+nws12_mainz_atrratio,Ratio of Today Range to 20 day average true range,1,vector,97%,—
+nws12_mainz_close_vol,Main close volume,0,vector,95%,—
+nws12_mainz_close_vol,Main close volume,1,vector,95%,—
+nws12_mainz_curr_vol,Current day's session volume,0,vector,97%,—
+nws12_mainz_curr_vol,Current day's session volume,1,vector,97%,—
+nws12_mainz_dayopen,Price at the session open,0,vector,97%,—
+nws12_mainz_dayopen,Price at the session open,1,vector,97%,—
+nws12_mainz_div_y,Annual yield,0,vector,48%,—
+nws12_mainz_div_y,Annual yield,1,vector,48%,—
+nws12_mainz_eodclose,Close price of the session,0,vector,97%,—
+nws12_mainz_eodclose,Close price of the session,1,vector,97%,—
+nws12_mainz_eodhigh,Highest price reached between the time of news and the end of the session,0,vector,97%,—
+nws12_mainz_eodhigh,Highest price reached between the time of news and the end of the session,1,vector,97%,—
+nws12_mainz_eodlow,Lowest price reached between the time of news and the end of the session.,0,vector,97%,—
+nws12_mainz_eodlow,Lowest price reached between the time of news and the end of the session.,1,vector,97%,—
+nws12_mainz_eodvwap,volume weighted average price between the time of news and the end of the session.,0,vector,97%,—
+nws12_mainz_eodvwap,volume weighted average price between the time of news and the end of the session.,1,vector,97%,—
+nws12_mainz_epsactual,The actual Earnings Per Share value that was conveyed by the news release,0,vector,88%,—
+nws12_mainz_epsactual,The actual Earnings Per Share value that was conveyed by the news release,1,vector,87%,—
+nws12_mainz_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,97%,—
+nws12_mainz_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,97%,—
+nws12_mainz_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,97%,—
+nws12_mainz_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,97%,—
+nws12_mainz_mainvwap,Main session volume weighted average price,0,vector,95%,—
+nws12_mainz_mainvwap,Main session volume weighted average price,1,vector,95%,—
+nws12_mainz_maxdnamt,The price at the time of the news minus the after the news low,0,vector,97%,—
+nws12_mainz_maxdnamt,The price at the time of the news minus the after the news low,1,vector,97%,—
+nws12_mainz_maxdown,Percent change from the price at the time of the news to the after the news low,0,vector,97%,—
+nws12_mainz_maxdown,Percent change from the price at the time of the news to the after the news low,1,vector,97%,—
+nws12_mainz_maxup,Percent change from the price at the time of the news to the after the news high,0,vector,97%,—
+nws12_mainz_maxup,Percent change from the price at the time of the news to the after the news high,1,vector,97%,—
+nws12_mainz_maxupamt,The after the news high minus the price at the time of the news,0,vector,97%,—
+nws12_mainz_maxupamt,The after the news high minus the price at the time of the news,1,vector,97%,—
+nws12_mainz_mktcap,Reported market capitalization for the calendar day of the session,0,vector,97%,—
+nws12_mainz_mktcap,Reported market capitalization for the calendar day of the session,1,vector,97%,—
+nws12_mainz_mov_vol,30 day moving average session volume,0,vector,97%,—
+nws12_mainz_mov_vol,30 day moving average session volume,1,vector,97%,—
+nws12_mainz_newrecord,Tracks whether the news is first instance or a duplicate,0,vector,97%,—
+nws12_mainz_newrecord,Tracks whether the news is first instance or a duplicate,1,vector,97%,—
+nws12_mainz_newssess,Index of session in which the news was reported,0,vector,97%,—
+nws12_mainz_newssess,Index of session in which the news was reported,1,vector,97%,—
+nws12_mainz_open_vol,Main open volume,0,vector,95%,—
+nws12_mainz_open_vol,Main open volume,1,vector,95%,—
+nws12_mainz_opengap,(DayOpen - PrevClose) / PrevClose.,0,vector,97%,—
+nws12_mainz_opengap,(DayOpen - PrevClose) / PrevClose.,1,vector,97%,—
+nws12_mainz_peratio,Reported price to earnings ratio for the calendar day of the session,0,vector,77%,—
+nws12_mainz_peratio,Reported price to earnings ratio for the calendar day of the session,1,vector,77%,—
+nws12_mainz_postvwap,Post session volume weighted average price,0,vector,87%,—
+nws12_mainz_postvwap,Post session volume weighted average price,1,vector,87%,—
+nws12_mainz_prev_vol,Previous day's session volume,0,vector,97%,—
+nws12_mainz_prev_vol,Previous day's session volume,1,vector,97%,—
+nws12_mainz_prevclose,Previous trading day's close price,0,vector,97%,—
+nws12_mainz_prevclose,Previous trading day's close price,1,vector,97%,—
+nws12_mainz_prevday,Percent change between the previous day's open and close,0,vector,97%,—
+nws12_mainz_prevday,Percent change between the previous day's open and close,1,vector,97%,—
+nws12_mainz_prevwap,Pre session volume weighted average price,0,vector,75%,—
+nws12_mainz_prevwap,Pre session volume weighted average price,1,vector,75%,—
+nws12_mainz_provider,index of name of the news provider,0,vector,97%,—
+nws12_mainz_provider,index of name of the news provider,1,vector,97%,—
+nws12_mainz_range,Session High Price - Session Low Price) / Session Low Price.,0,vector,97%,—
+nws12_mainz_range,Session High Price - Session Low Price) / Session Low Price.,1,vector,97%,—
+nws12_mainz_rangeamt,Session High Price - Session Low Price,0,vector,97%,—
+nws12_mainz_rangeamt,Session High Price - Session Low Price,1,vector,97%,—
+nws12_mainz_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,0,vector,97%,—
+nws12_mainz_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,1,vector,97%,—
+nws12_mainz_reportsess,Index of Session on which the spreadsheet is reporting,0,vector,97%,—
+nws12_mainz_reportsess,Index of Session on which the spreadsheet is reporting,1,vector,97%,—
+nws12_mainz_result1,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,97%,—
+nws12_mainz_result1,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,97%,—
+nws12_mainz_result2,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,97%,—
+nws12_mainz_result2,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,97%,—
+nws12_mainz_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),0,vector,97%,—
+nws12_mainz_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),1,vector,97%,—
+nws12_mainz_short_interest,Total number of shares sold short divided by total number of shares outstanding,0,vector,86%,—
+nws12_mainz_short_interest,Total number of shares sold short divided by total number of shares outstanding,1,vector,86%,—
+nws12_mainz_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,0,vector,97%,—
+nws12_mainz_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,1,vector,97%,—
+nws12_mainz_spyclose,Price of SPY at close of session,0,vector,97%,—
+nws12_mainz_spyclose,Price of SPY at close of session,1,vector,97%,—
+nws12_mainz_spylast,Last Price of the SPY at the time of the news,0,vector,97%,—
+nws12_mainz_spylast,Last Price of the SPY at the time of the news,1,vector,97%,—
+nws12_mainz_tonhigh,Highest price reached during the session before the time of news,0,vector,97%,—
+nws12_mainz_tonhigh,Highest price reached during the session before the time of news,1,vector,97%,—
+nws12_mainz_tonlast,Price at the time of news,0,vector,97%,—
+nws12_mainz_tonlast,Price at the time of news,1,vector,97%,—
+nws12_mainz_tonlow,Lowest price reached during the session before the time of the news,0,vector,97%,—
+nws12_mainz_tonlow,Lowest price reached during the session before the time of the news,1,vector,97%,—
+nws12_mainz_vol_ratio,Curr_Vol / Mov_Vol,0,vector,97%,—
+nws12_mainz_vol_ratio,Curr_Vol / Mov_Vol,1,vector,97%,—
+nws12_mainz_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,0,vector,97%,—
+nws12_mainz_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,1,vector,97%,—
+nws12_prez_01l,Number of minutes that elapsed before price went up 10 percentage points,0,vector,92%,—
+nws12_prez_01l,Number of minutes that elapsed before price went up 10 percentage points,1,vector,92%,—
+nws12_prez_01p,The minimum of L or S above for 10 minute bucket,0,vector,92%,—
+nws12_prez_01p,The minimum of L or S above for 10 minute bucket,1,vector,92%,—
+nws12_prez_01s,Number of minutes that elapsed before price went down 10 percentage points,0,vector,92%,—
+nws12_prez_01s,Number of minutes that elapsed before price went down 10 percentage points,1,vector,92%,—
+nws12_prez_02l,Number of minutes that elapsed before price went up 20 percentage points,0,vector,92%,—
+nws12_prez_02l,Number of minutes that elapsed before price went up 20 percentage points,1,vector,92%,—
+nws12_prez_02p,The minimum of L or S above for 20 minute bucket,0,vector,92%,—
+nws12_prez_02p,The minimum of L or S above for 20 minute bucket,1,vector,92%,—
+nws12_prez_02s,Number of minutes that elapsed before price went down 20 percentage points,0,vector,92%,—
+nws12_prez_02s,Number of minutes that elapsed before price went down 20 percentage points,1,vector,92%,—
+nws12_prez_10_min,The percent change in price in the first 10 minutes following the news release,0,vector,51%,—
+nws12_prez_10_min,Thepercent change in price in the first 10 minutes following the news release,1,vector,51%,—
+nws12_prez_120_min,The percent change in price in the first 120 minutes following the news release,0,vector,63%,—
+nws12_prez_120_min,The percent change in price in the first 120 minutes following the news release,1,vector,63%,—
+nws12_prez_1_minute,The percent change in price in the first minute following the news release,0,vector,41%,—
+nws12_prez_1_minute,The percent change in price in the first minute following the news release,1,vector,41%,—
+nws12_prez_1l,Number of minutes that elapsed before price went up 1 percentage points,0,vector,92%,—
+nws12_prez_1l,Number of minutes that elapsed before price went up 1 percentage points,1,vector,92%,—
+nws12_prez_1p,The minimum of L or S above for 1 minute bucket,0,vector,92%,—
+nws12_prez_1p,The minimum of L or S above for 1 minute bucket,1,vector,92%,—
+nws12_prez_1s,Number of minutes that elapsed before price went down 1 percentage points,0,vector,92%,—
+nws12_prez_1s,Number of minutes that elapsed before price went down 1 percentage points,1,vector,92%,—
+nws12_prez_2l,Number of minutes that elapsed before price went up 2 percentage points,0,vector,92%,—
+nws12_prez_2l,Number of minutes that elapsed before price went up 2 percentage points,1,vector,92%,—
+nws12_prez_2p,The minimum of L or S above for 2 minute bucket,0,vector,92%,—
+nws12_prez_2p,The minimum of L or S above for 2 minute bucket,1,vector,92%,—
+nws12_prez_2s,Number of minutes that elapsed before price went down 2 percentage points,0,vector,92%,—
+nws12_prez_2s,Number of minutes that elapsed before price went down 2 percentage points,1,vector,92%,—
+nws12_prez_30_min,The percent change in price in the first 30 minutes following the news release,0,vector,57%,—
+nws12_prez_30_min,The percent change in price in the first 30 minutes following the news release,1,vector,57%,—
+nws12_prez_30_seconds,The percent change in price in the 30 seconds following the news release,0,vector,37%,—
+nws12_prez_30_seconds,The percent change in price in the 30 seconds following the news release,1,vector,37%,—
+nws12_prez_3l,Number of minutes that elapsed before price went up 3 percentage points,0,vector,92%,—
+nws12_prez_3l,Number of minutes that elapsed before price went up 3 percentage points,1,vector,92%,—
+nws12_prez_3p,The minimum of L or S above for 3 minute bucket,0,vector,92%,—
+nws12_prez_3p,The minimum of L or S above for 3 minute bucket,1,vector,92%,—
+nws12_prez_3s,Number of minutes that elapsed before price went down 3 percentage points,0,vector,92%,—
+nws12_prez_3s,Number of minutes that elapsed before price went down 3 percentage points,1,vector,92%,—
+nws12_prez_41rta,Fourteen day Average True Range,0,vector,91%,—
+nws12_prez_41rta,Fourteen day Average True Range,1,vector,91%,—
+nws12_prez_4l,Number of minutes that elapsed before price went up 4 percentage points,0,vector,92%,—
+nws12_prez_4l,Number of minutes that elapsed before price went up 4 percentage points,1,vector,92%,—
+nws12_prez_4p,The minimum of L or S above for 4 minute bucket,0,vector,92%,—
+nws12_prez_4p,The minimum of L or S above for 4 minute bucket,1,vector,92%,—
+nws12_prez_4s,Number of minutes that elapsed before price went down 4 percentage points,0,vector,92%,—
+nws12_prez_4s,Number of minutes that elapsed before price went down 4 percentage points,1,vector,92%,—
+nws12_prez_57l,Number of minutes that elapsed before price went up 7.5 percentage points,0,vector,92%,—
+nws12_prez_57l,Number of minutes that elapsed before price went up 7.5 percentage points,1,vector,92%,—
+nws12_prez_57p,The minimum of L or S above for 7.5 minute bucket,0,vector,92%,—
+nws12_prez_57p,The minimum of L or S above for 7.5 minute bucket,1,vector,92%,—
+nws12_prez_57s,Number of minutes that elapsed before price went down 7.5 percentage points,0,vector,92%,—
+nws12_prez_57s,Number of minutes that elapsed before price went down 7.5 percentage points,1,vector,92%,—
+nws12_prez_5_min,The percent change in price in the first 5 minutes following the news release,0,vector,47%,—
+nws12_prez_5_min,The percent change in price in the first 5 minutes following the news release,1,vector,47%,—
+nws12_prez_5l,Number of minutes that elapsed before price went up 5 percentage points,0,vector,92%,—
+nws12_prez_5l,Number of minutes that elapsed before price went up 5 percentage points,1,vector,92%,—
+nws12_prez_5p,The minimum of L or S above for 5 minute bucket,0,vector,92%,—
+nws12_prez_5p,The minimum of L or S above for 5 minute bucket,1,vector,92%,—
+nws12_prez_5s,Number of minutes that elapsed before price went down 5 percentage points,0,vector,92%,—
+nws12_prez_5s,Number of minutes that elapsed before price went down 5 percentage points,1,vector,92%,—
+nws12_prez_60_min,The percent change in price in the first 60 minutes following the news release,0,vector,61%,—
+nws12_prez_60_min,The percent change in price in the first 60 minutes following the news release,1,vector,61%,—
+nws12_prez_90_min,The percent change in price in the first 90 minutes following the news release,0,vector,62%,—
+nws12_prez_90_min,The percent change in price in the first 90 minutes following the news release,1,vector,63%,—
+nws12_prez_allticks,Total number of ticks for the trading day,0,vector,92%,—
+nws12_prez_allticks,Total number of ticks for the trading day,1,vector,92%,—
+nws12_prez_allvwap,Volume weighted average price of all sessions,0,vector,92%,—
+nws12_prez_allvwap,Volume weighted average price of all sessions,1,vector,92%,—
+nws12_prez_atrratio,Ratio of Today Range to 20 day average true range,0,vector,77%,—
+nws12_prez_atrratio,Ratio of Today Range to 20 day average true range,1,vector,77%,—
+nws12_prez_close_vol,Main close volume,0,vector,91%,—
+nws12_prez_close_vol,Main close volume,1,vector,91%,—
+nws12_prez_curr_vol,Current day's session volume,0,vector,77%,—
+nws12_prez_curr_vol,Current day's session volume,1,vector,77%,—
+nws12_prez_dayopen,Price at the session open,0,vector,77%,—
+nws12_prez_dayopen,Price at the session open,1,vector,77%,—
+nws12_prez_div_y,Annual yield,0,vector,44%,—
+nws12_prez_div_y,Annual yield,1,vector,44%,—
+nws12_prez_eodclose,Close price of the session,0,vector,77%,—
+nws12_prez_eodclose,Close price of the session,1,vector,77%,—
+nws12_prez_eodhigh,Highest price reached between the time of news and the end of the session,0,vector,77%,—
+nws12_prez_eodhigh,Highest price reached between the time of news and the end of the session,1,vector,77%,—
+nws12_prez_eodlow,Lowest price reached between the time of news and the end of the session.,0,vector,77%,—
+nws12_prez_eodlow,Lowest price reached between the time of news and the end of the session.,1,vector,77%,—
+nws12_prez_eodvwap,volume weighted average price between the time of news and the end of the session.,0,vector,77%,—
+nws12_prez_eodvwap,volume weighted average price between the time of news and the end of the session.,1,vector,77%,—
+nws12_prez_epsactual,The actual Earnings Per Share value that was conveyed by the news release,0,vector,76%,—
+nws12_prez_epsactual,The actual Earnings Per Share value that was conveyed by the news release,1,vector,76%,—
+nws12_prez_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,77%,—
+nws12_prez_highexcstddev,(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,77%,—
+nws12_prez_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,0,vector,77%,—
+nws12_prez_lowexcstddev,(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days,1,vector,77%,—
+nws12_prez_mainvwap,Main session volume weighted average price,0,vector,91%,—
+nws12_prez_mainvwap,Main session volume weighted average price,1,vector,91%,—
+nws12_prez_maxdnamt,The price at the time of the news minus the after the news low,0,vector,77%,—
+nws12_prez_maxdnamt,The price at the time of the news minus the after the news low,1,vector,77%,—
+nws12_prez_maxdown,Percent change from the price at the time of the news to the after the news low,0,vector,77%,—
+nws12_prez_maxdown,Percent change from the price at the time of the news to the after the news low,1,vector,77%,—
+nws12_prez_maxup,Percent change from the price at the time of the news to the after the news high,0,vector,77%,—
+nws12_prez_maxup,Percent change from the price at the time of the news to the after the news high,1,vector,77%,—
+nws12_prez_maxupamt,The after the news high minus the price at the time of the news,0,vector,77%,—
+nws12_prez_maxupamt,The after the news high minus the price at the time of the news,1,vector,77%,—
+nws12_prez_mktcap,Reported market capitalization for the calendar day of the session,0,vector,92%,—
+nws12_prez_mktcap,Reported market capitalization for the calendar day of the session,1,vector,92%,—
+nws12_prez_mov_vol,30 day moving average session volume,0,vector,91%,—
+nws12_prez_mov_vol,30 day moving average session volume,1,vector,91%,—
+nws12_prez_newrecord,Tracks whether the news is first instance or a duplicate,0,vector,92%,—
+nws12_prez_newrecord,Tracks whether the news is first instance or a duplicate,1,vector,92%,—
+nws12_prez_newssess,Index of session in which the news was reported,0,vector,92%,—
+nws12_prez_newssess,Index of session in which the news was reported,1,vector,92%,—
+nws12_prez_open_vol,Main open volume,0,vector,91%,—
+nws12_prez_open_vol,Main open volume,1,vector,91%,—
+nws12_prez_opengap,(DayOpen - PrevClose) / PrevClose.,0,vector,92%,—
+nws12_prez_opengap,(DayOpen - PrevClose) / PrevClose.,1,vector,92%,—
+nws12_prez_peratio,Reported price to earnings ratio for the calendar day of the session,0,vector,72%,—
+nws12_prez_peratio,Reported price to earnings ratio for the calendar day of the session,1,vector,72%,—
+nws12_prez_postvwap,Post session volume weighted average price,0,vector,70%,—
+nws12_prez_postvwap,Post session volume weighted average price,1,vector,70%,—
+nws12_prez_prev_vol,Previous day's session volume,0,vector,79%,—
+nws12_prez_prev_vol,Previous day's session volume,1,vector,79%,—
+nws12_prez_prevclose,Previous trading day's close price,0,vector,92%,—
+nws12_prez_prevclose,Previous trading day's close price,1,vector,92%,—
+nws12_prez_prevday,Percent change between the previous day's open and close,0,vector,92%,—
+nws12_prez_prevday,Percent change between the previous day's open and close,1,vector,92%,—
+nws12_prez_prevwap,Pre session volume weighted average price,0,vector,77%,—
+nws12_prez_prevwap,Pre session volume weighted average price,1,vector,77%,—
+nws12_prez_provider,index of name of the news provider,0,vector,92%,—
+nws12_prez_provider,index of name of the news provider,1,vector,92%,—
+nws12_prez_range,Session High Price - Session Low Price) / Session Low Price.,0,vector,77%,—
+nws12_prez_range,Session High Price - Session Low Price) / Session Low Price.,1,vector,77%,—
+nws12_prez_rangeamt,Session High Price - Session Low Price,0,vector,77%,—
+nws12_prez_rangeamt,Session High Price - Session Low Price,1,vector,77%,—
+nws12_prez_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,0,vector,72%,—
+nws12_prez_rangestddev,(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days,1,vector,72%,—
+nws12_prez_reportsess,Index of Session on which the spreadsheet is reporting,0,vector,92%,—
+nws12_prez_reportsess,Index of Session on which the spreadsheet is reporting,1,vector,92%,—
+nws12_prez_result1,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,77%,—
+nws12_prez_result1,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,77%,—
+nws12_prez_result2,Percent change between the price at the time of the news release to the price at the close of the session,0,vector,77%,—
+nws12_prez_result2,Percent change between the price at the time of the news release to the price at the close of the session,1,vector,77%,—
+nws12_prez_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),0,vector,77%,—
+nws12_prez_result_vs_index,((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast),1,vector,77%,—
+nws12_prez_short_interest,Total number of shares sold short divided by total number of shares outstanding,0,vector,81%,—
+nws12_prez_short_interest,Total number of shares sold short divided by total number of shares outstanding,1,vector,81%,—
+nws12_prez_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,0,vector,92%,—
+nws12_prez_sl,Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.,1,vector,92%,—
+nws12_prez_spyclose,Price of SPY at close of session,0,vector,77%,—
+nws12_prez_spyclose,Price of SPY at close of session,1,vector,77%,—
+nws12_prez_spylast,Last Price of the SPY at the time of the news,0,vector,77%,—
+nws12_prez_spylast,Last Price of the SPY at the time of the news,1,vector,77%,—
+nws12_prez_tonhigh,Highest price reached during the session before the time of news,0,vector,77%,—
+nws12_prez_tonhigh,Highest price reached during the session before the time of news,1,vector,77%,—
+nws12_prez_tonlast,Price at the time of news,0,vector,77%,—
+nws12_prez_tonlast,Price at the time of news,1,vector,77%,—
+nws12_prez_tonlow,Lowest price reached during the session before the time of the news,0,vector,77%,—
+nws12_prez_tonlow,Lowest price reached during the session before the time of the news,1,vector,77%,—
+nws12_prez_vol_ratio,Curr_Vol / Mov_Vol,0,vector,78%,—
+nws12_prez_vol_ratio,Curr_Vol / Mov_Vol,1,vector,78%,—
+nws12_prez_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,0,vector,77%,—
+nws12_prez_volstddev,(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days,1,vector,77%,—

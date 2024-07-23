@@ -1,0 +1,37 @@
+Field,Description,Delay,Type,USA,CHN
+adv20,Average daily volume in past 20 days,0,matrix,100%,100%
+adv20,Average daily volume in past 20 days,1,matrix,100%,100%
+cap,Daily market capitalization (in millions),0,matrix,100%,100%
+cap,Daily market capitalization (in millions),1,matrix,100%,100%
+close,Daily close price,0,matrix,100%,100%
+close,Daily close price,1,matrix,100%,100%
+country,Country grouping,0,group,100%,100%
+country,Country grouping,1,group,100%,100%
+dividend,Dividend,0,matrix,100%,100%
+dividend,Dividend,1,matrix,100%,100%
+exchange,Exchange grouping,0,group,100%,100%
+exchange,Exchange grouping,1,group,100%,100%
+high,Daily high price,0,matrix,100%,100%
+high,Daily high price,1,matrix,100%,100%
+industry,Industry grouping,0,group,100%,100%
+industry,Industry grouping,1,group,100%,100%
+low,Daily low price,0,matrix,100%,100%
+low,Daily low price,1,matrix,100%,100%
+market,Market grouping,0,group,100%,100%
+market,Market grouping,1,group,100%,100%
+open,Daily open price,0,matrix,100%,100%
+open,Daily open price,1,matrix,100%,100%
+returns,Daily returns,0,matrix,100%,100%
+returns,Daily returns,1,matrix,100%,100%
+sector,Sector grouping,0,group,100%,100%
+sector,Sector grouping,1,group,100%,100%
+sharesout,Daily outstanding shares (in millions),0,matrix,100%,100%
+sharesout,Daily outstanding shares (in millions),1,matrix,100%,100%
+split,Stock split ratio,0,matrix,100%,100%
+split,Stock split ratio,1,matrix,100%,100%
+subindustry,Subindustry grouping,0,group,100%,100%
+subindustry,Subindustry grouping,1,group,100%,100%
+volume,Daily volume,0,matrix,100%,100%
+volume,Daily volume,1,matrix,100%,100%
+vwap,Daily volume weighted average price,0,matrix,100%,100%
+vwap,Daily volume weighted average price,1,matrix,100%,100%

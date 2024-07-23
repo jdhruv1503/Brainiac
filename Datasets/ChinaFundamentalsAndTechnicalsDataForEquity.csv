@@ -1,0 +1,145 @@
+Field,Description,Delay,Type,USA,CHN
+mdl175_01am,10-day moving average,0,matrix,—,100%
+mdl175_01am,10-day moving average,1,matrix,—,100%
+mdl175_01ame,10-day exponential moving average,0,matrix,—,100%
+mdl175_01ame,10-day exponential moving average,1,matrix,—,100%
+mdl175_01amev,10-day Exponential moving average of volume,0,matrix,—,100%
+mdl175_01amev,10-day Exponential moving average of volume,1,matrix,—,100%
+mdl175_01dtsv,10-day volume standard deviation,0,matrix,—,100%
+mdl175_01dtsv,10-day volume standard deviation,1,matrix,—,100%
+mdl175_01icc,10-day commodity channel index,0,matrix,—,100%
+mdl175_01icc,10-day commodity channel index,1,matrix,—,100%
+mdl175_021am,120-day moving average,0,matrix,—,100%
+mdl175_021am,120-day moving average,1,matrix,—,100%
+mdl175_021ame,120-day exponential moving average,0,matrix,—,100%
+mdl175_021ame,120-day exponential moving average,1,matrix,—,100%
+mdl175_02am,20-day moving average,0,matrix,—,100%
+mdl175_02am,20-day moving average,1,matrix,—,100%
+mdl175_02ame,20-day exponential moving average,0,matrix,—,100%
+mdl175_02ame,20-day exponential moving average,1,matrix,—,100%
+mdl175_02amvt,20-day turnover value moving average,0,matrix,—,100%
+mdl175_02amvt,20-day turnover value moving average,1,matrix,—,100%
+mdl175_02da,20-day Accumulation / Distribution line,0,matrix,—,100%
+mdl175_02da,20-day Accumulation / Distribution line,1,matrix,—,100%
+mdl175_02dca,20-day accumulation / Distribution,0,matrix,—,100%
+mdl175_02dca,20-day accumulation / Distribution,1,matrix,—,100%
+mdl175_02dtsv,20-day volume standard deviation,0,matrix,—,100%
+mdl175_02dtsv,20-day volume standard deviation,1,matrix,—,100%
+mdl175_02dtsvt,20-day turnover value standard deviation,0,matrix,—,100%
+mdl175_02dtsvt,20-day turnover value standard deviation,1,matrix,—,100%
+mdl175_02icc,20-day commodity channel index,0,matrix,—,100%
+mdl175_02icc,20-day commodity channel index,1,matrix,—,100%
+mdl175_02rc,price movement indicator, compare buying power and selling power to previous mid price (20 days),0,matrix,—,100%
+mdl175_02rc,price movement indicator, compare buying power and selling power to previous mid price (20 days),1,matrix,—,100%
+mdl175_02sqdj,20-day relative strength to market,0,matrix,—,100%
+mdl175_02sqdj,20-day relative strength to market,1,matrix,—,100%
+mdl175_02vbo,20-day on balance volume,0,matrix,—,100%
+mdl175_02vbo,20-day on balance volume,1,matrix,—,100%
+mdl175_06am,60-day moving average,0,matrix,—,100%
+mdl175_06am,60-day moving average,1,matrix,—,100%
+mdl175_06ame,60-day exponential moving average,0,matrix,—,100%
+mdl175_06ame,60-day exponential moving average,1,matrix,—,100%
+mdl175_21ame,12-day exponential moving average,0,matrix,—,100%
+mdl175_21ame,12-day exponential moving average,1,matrix,—,100%
+mdl175_21amev,12-day Exponential moving average of volume,0,matrix,—,100%
+mdl175_21amev,12-day Exponential moving average of volume,1,matrix,—,100%
+mdl175_21cr,12-day rate of change,0,matrix,—,100%
+mdl175_21cr,12-day rate of change,1,matrix,—,100%
+mdl175_21crlp,12-day price linear regression coefficient,0,matrix,—,100%
+mdl175_21crlp,12-day price linear regression coefficient,1,matrix,—,100%
+mdl175_21rtsr,Relative strength for the last 12 months,0,matrix,—,100%
+mdl175_21rtsr,Relative strength for the last 12 months,1,matrix,—,100%
+mdl175_21tvp,12-day average price and volume trend,0,matrix,—,100%
+mdl175_21tvp,12-day average price and volume trend,1,matrix,—,100%
+mdl175_405rtsr,Relative strength for the last 504 trading days,0,matrix,—,100%
+mdl175_405rtsr,Relative strength for the last 504 trading days,1,matrix,—,100%
+mdl175_41rta,14-day average true range,0,matrix,—,100%
+mdl175_41rta,14-day average true range,1,matrix,—,100%
+mdl175_41vme,14-day ease of movement value,0,matrix,—,100%
+mdl175_41vme,14-day ease of movement value,1,matrix,—,100%
+mdl175_42cr,24-day rate of change,0,matrix,—,100%
+mdl175_42cr,24-day rate of change,1,matrix,—,100%
+mdl175_42rtsr,Relative strength for the last 24 months,0,matrix,—,100%
+mdl175_42rtsr,Relative strength for the last 24 months,1,matrix,—,100%
+mdl175_5am,5-day moving average,0,matrix,—,100%
+mdl175_5am,5-day moving average,1,matrix,—,100%
+mdl175_5ame,5-day exponential moving average,0,matrix,—,100%
+mdl175_5ame,5-day exponential moving average,1,matrix,—,100%
+mdl175_5amev,5-day Exponential moving average of volume,0,matrix,—,100%
+mdl175_5amev,5-day Exponential moving average of volume,1,matrix,—,100%
+mdl175_5aor,Five-year average return on assets,0,matrix,—,100%
+mdl175_5aor,Five-year average return on assets,1,matrix,—,100%
+mdl175_5icc,5-day commodity channel index,0,matrix,—,100%
+mdl175_5icc,5-day commodity channel index,1,matrix,—,100%
+mdl175_5ptc,5-year average dividend yield,0,matrix,—,72%
+mdl175_5ptc,5-year average dividend yield,1,matrix,—,72%
+mdl175_5pte,Five-year average earnings to price,0,matrix,—,91%
+mdl175_5pte,Five-year average earnings to price,1,matrix,—,91%
+mdl175_62ame,26-day exponential moving average,0,matrix,—,100%
+mdl175_62ame,26-day exponential moving average,1,matrix,—,100%
+mdl175_62amev,26-day Exponential moving average of volume,0,matrix,—,100%
+mdl175_62amev,26-day Exponential moving average of volume,1,matrix,—,100%
+mdl175_6amvt,6-day turnover value moving average,0,matrix,—,100%
+mdl175_6amvt,6-day turnover value moving average,1,matrix,—,100%
+mdl175_6crlp,6-day price linear regression coefficient,0,matrix,—,100%
+mdl175_6crlp,6-day price linear regression coefficient,1,matrix,—,100%
+mdl175_6da,6-day Accumulation / Distribution line,0,matrix,—,100%
+mdl175_6da,6-day Accumulation / Distribution line,1,matrix,—,100%
+mdl175_6dca,6-day accumulation / Distribution,0,matrix,—,100%
+mdl175_6dca,6-day accumulation / Distribution,1,matrix,—,100%
+mdl175_6dtsvt,6-day turnover value standard deviation,0,matrix,—,100%
+mdl175_6dtsvt,6-day turnover value standard deviation,1,matrix,—,100%
+mdl175_6rta,6-day average true range,0,matrix,—,100%
+mdl175_6rta,6-day average true range,1,matrix,—,100%
+mdl175_6tvp,6-day average price and volume trend,0,matrix,—,100%
+mdl175_6tvp,6-day average price and volume trend,1,matrix,—,100%
+mdl175_6vbo,6-day on balance volume,0,matrix,—,100%
+mdl175_6vbo,6-day on balance volume,1,matrix,—,100%
+mdl175_6vme,6-day ease of movement value,0,matrix,—,100%
+mdl175_6vme,6-day ease of movement value,1,matrix,—,100%
+mdl175_88icc,88-day commodity channel index,0,matrix,—,100%
+mdl175_88icc,88-day commodity channel index,1,matrix,—,100%
+mdl175_acca,Cash flow assets ratio minus return on assets,0,matrix,—,100%
+mdl175_acca,Cash flow assets ratio minus return on assets,1,matrix,—,100%
+mdl175_accountspayablestdays,Accounts payable turnover days,0,matrix,—,100%
+mdl175_accountspayablestdays,Accounts payable turnover days,1,matrix,—,100%
+mdl175_accountspayablestrate,Accounts payable turnover rate,0,matrix,—,100%
+mdl175_accountspayablestrate,Accounts payable turnover rate,1,matrix,—,100%
+mdl175_ad,Depreciation & Amortization,0,matrix,—,100%
+mdl175_ad,Depreciation & Amortization,1,matrix,—,100%
+mdl175_adminexpensettm,Administration expense, TTM,0,matrix,—,100%
+mdl175_adminexpensettm,Administration expense, TTM,1,matrix,—,100%
+mdl175_adminiexpenserate,Administrative expense ratio,0,matrix,—,100%
+mdl175_adminiexpenserate,Administrative expense ratio,1,matrix,—,100%
+mdl175_aed,Difference in Exponential Average (mediator in calculating MACD),0,matrix,—,100%
+mdl175_aed,Difference in Exponential Average (mediator in calculating MACD),1,matrix,—,100%
+mdl175_aedv,Volume difference exponential average,0,matrix,—,100%
+mdl175_aedv,Volume difference exponential average,1,matrix,—,100%
+mdl175_alpha120,120-day Jensen's alpha of individual stocks,0,matrix,—,100%
+mdl175_alpha120,120-day Jensen's alpha of individual stocks,1,matrix,—,100%
+mdl175_alpha20,20-day Jensen's alpha of individual stocks,0,matrix,—,100%
+mdl175_alpha20,20-day Jensen's alpha of individual stocks,1,matrix,—,100%
+mdl175_alpha60,60-day Jensen's alpha of individual stocks,0,matrix,—,100%
+mdl175_alpha60,60-day Jensen's alpha of individual stocks,1,matrix,—,100%
+mdl175_ambpa,Absolute price bias moving average,0,matrix,—,100%
+mdl175_ambpa,Absolute price bias moving average,1,matrix,—,100%
+mdl175_ammtm,10-day average momentum index,0,matrix,—,100%
+mdl175_ammtm,10-day average momentum index,1,matrix,—,100%
+mdl175_aor,Return on assets,0,matrix,—,100%
+mdl175_aor,Return on assets,1,matrix,—,100%
+mdl175_arc,Average Rate of Change,0,matrix,—,100%
+mdl175_arc,Average Rate of Change,1,matrix,—,100%
+mdl175_armc,Monthly cumulative return range over the past 24 months,0,matrix,—,100%
+mdl175_armc,Monthly cumulative return range over the past 24 months,1,matrix,—,100%
+mdl175_aroon,Aroon oscillator,0,matrix,—,100%
+mdl175_aroon,Aroon oscillator,1,matrix,—,100%
+mdl175_aroondown,Mediator in calculating Aroon,0,matrix,—,100%
+mdl175_aroondown,Mediator in calculating Aroon,1,matrix,—,100%
+mdl175_aroonup,Mediator in calculating Aroon,0,matrix,—,100%
+mdl175_aroonup,Mediator in calculating Aroon,1,matrix,—,100%
+mdl175_artdays,Accounts receivable turnover days,0,matrix,—,100%
+mdl175_artdays,Accounts receivable turnover days,1,matrix,—,100%
+mdl175_artrate,Accounts receivable turnover ratio,0,matrix,—,100%
+mdl175_artrate,Accounts receivable turnover ratio,1,matrix,—,100%
+mdl175_assetimpairlossttm,Assets impairment loss, TTM,0,matrix,—,100%
+mdl175_assetimpairlossttm,Assets impairment loss,

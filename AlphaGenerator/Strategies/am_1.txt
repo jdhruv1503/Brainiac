@@ -1,0 +1,1 @@
+RSI+MACD Strategy: Buy order when RSI ≤ 30 and MACD main line crosses over signal line with 2.5 per-cent stop-loss and 5 per-cent take-profit.

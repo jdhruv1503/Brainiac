@@ -1,0 +1,17 @@
+Field,Description,Delay,Type,Coverage,USA,CHN
+beta_last_30_days_spy,Beta to SPY in 30 Day,1,matrix,78%,78%,—
+beta_last_360_days_spy,Beta to SPY in 360 Day,1,matrix,76%,76%,—
+beta_last_60_days_spy,Beta to SPY in 60 Day,1,matrix,78%,78%,—
+beta_last_90_days_spy,Beta to SPY in 90 Day,1,matrix,78%,78%,—
+correlation_last_30_days_spy,Correlation to SPY in 30,1,matrix,78%,78%,—
+correlation_last_360_days_spy,Correlation to SPY in 360,1,matrix,76%,76%,—
+correlation_last_60_days_spy,Correlation to SPY in 60,1,matrix,78%,78%,—
+correlation_last_90_days_spy,Correlation to SPY in 90,1,matrix,78%,78%,—
+systematic_risk_last_30_days,Systematic Risk Last 30 Days,1,matrix,78%,78%,—
+systematic_risk_last_360_days,Systematic Risk Last 360 Days,1,matrix,76%,76%,—
+systematic_risk_last_60_days,Systematic Risk Last 60 Days,1,matrix,78%,78%,—
+systematic_risk_last_90_days,Systematic Risk Last 90 Days,1,matrix,77%,77%,—
+unsystematic_risk_last_30_days,Unsystematic Risk Last 30 Days - Relative to SPY,1,matrix,78%,78%,—
+unsystematic_risk_last_360_days,Unsystematic Risk Last 360 Days - Relative to SPY,1,matrix,76%,76%,—
+unsystematic_risk_last_60_days,Unsystematic Risk Last 60 Days - Relative to SPY,1,matrix,78%,78%,—
+unsystematic_risk_last_90_days,Unsystematic Risk Last 90 Days - Relative to SPY,1,matrix,77%,77%,—

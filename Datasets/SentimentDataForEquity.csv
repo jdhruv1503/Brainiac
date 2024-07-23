@@ -1,0 +1,22 @@
+Field,Description,Delay,Type,USA,CHN
+scl12_alltype_buzzvec,sentiment volume,1,vector,95%,—
+scl12_alltype_sentvec,sentiment,1,vector,95%,—
+scl12_alltype_typevec,instrument type index,1,vector,95%,—
+scl12_buzz,relative sentiment volume,0,matrix,95%,—
+scl12_buzz,relative sentiment volume,1,matrix,95%,39%
+scl12_buzzvec,sentiment volume,0,vector,95%,—
+scl12_cubealltype_buzzvec,sentiment volume,1,vector,99%,—
+scl12_cubealltype_sentvec,sentiment,1,vector,99%,—
+scl12_cubealltype_typevec,instrument type index,1,vector,99%,—
+scl12_sentiment,sentiment,0,matrix,94%,—
+scl12_sentiment,sentiment,1,matrix,94%,39%
+scl12_sentvec,sentiment,0,vector,95%,—
+scl12_typevec,instrument type index,0,vector,95%,—
+snt_buzz,negative relative sentiment volume, fill nan with 0,0,matrix,95%,—
+snt_buzz,negative relative sentiment volume, fill nan with 0,1,matrix,95%,—
+snt_buzz_bfl,negative relative sentiment volume, fill nan with 1,0,matrix,100%,—
+snt_buzz_bfl,negative relative sentiment volume, fill nan with 1,1,matrix,100%,—
+snt_buzz_ret,negative return of relative sentiment volume,0,matrix,95%,—
+snt_buzz_ret,negative return of relative sentiment volume,1,matrix,95%,—
+snt_value,negative sentiment, fill nan with 0,0,matrix,94%,—
+snt_value,negative sentiment, fill nan with 0,1,matrix,94%,— 

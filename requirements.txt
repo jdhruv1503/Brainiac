@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+sqlalchemy
+llama_parse
+asyncio
+nest_asyncio
+aiohttp

@@ -1,0 +1,5 @@
+Moving Avg+Bollinger Bands Strategy
+Long Position:
+• Entry: 7 period moving average crosses over 14 period moving average
+and price touches lower bollinger band.
+• 2.5 per-cent stoploss, 5 per-cent take-profit.

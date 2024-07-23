@@ -1,0 +1,5 @@
+ADX Strategy (14 periods)
+Long position:
+• ADX touches 30, DI+ above DI-.
+• Stoploss 2.5
+• Take-profit 5

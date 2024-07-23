@@ -1,0 +1,5 @@
+Field,Description,Delay,Type,USA,CHN
+snt_social_value,Z score of sentiment,0,matrix,86%,—
+snt_social_value,Z score of sentiment,1,matrix,86%,—
+snt_social_volume,Normalized tweet volume,0,matrix,86%,—
+snt_social_volume,Normalized tweet volume,1,matrix,86%,—

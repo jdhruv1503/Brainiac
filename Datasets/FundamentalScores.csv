@@ -1,0 +1,9 @@
+Field,Description,Delay,Type,Coverage,USA,CHN
+fscore_growth,The purpose of this metric is to qualify the expected MT growth potential of the stock.,1,matrix,31%,31%,—
+fscore_momentum,The purpose of this metric is to identify stocks which are currently undergoing either up or downward analyst revisions.,1,matrix,31%,31%,—
+fscore_profitability,The purpose of this metric is to rank stock based on their ability to generate cash flows.,1,matrix,31%,31%,—
+fscore_quality,The purpose of this metric is to measure both the sustainability and certainty of earnings.,1,matrix,31%,31%,—
+fscore_surface,The static score. An index between 0 & 100 is applied for each stock and each composite factor - The first ranking is a pentagon surface-based score. The larger the surface, the higher the rank.,1,matrix,31%,31%,—
+fscore_surface_accel,The derivative score. In a second step, we calculate the derivative of this score (ie: Is the surface of the pentagon increasing or decreasing from the previous month?).,1,matrix,30%,30%,—
+fscore_total,The final score M-Score is a weighted average of both the Pentagon surface score and the Pentagon acceleration score.,1,matrix,30%,30%,—
+fscore_value,The purpose of this metric is to see if the stock is under or overpriced given several well known valuation standards.,1,matrix,31%,31%,—
