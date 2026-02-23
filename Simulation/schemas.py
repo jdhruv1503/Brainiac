@@ -47,6 +47,7 @@ class Alpha(BaseModel):
 from sqlalchemy import create_engine, Column, Integer, String, Float, Boolean, Index
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+import os
 
 Base = declarative_base()
 
@@ -122,7 +123,12 @@ class AlphaResult(Base):
     alpha_link = Column(String)
     alpha_code = Column(String)
 
-engine = create_engine('sqlite:///alphas/alpha_results.db')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ALPHAS_DIR = os.path.join(BASE_DIR, 'alphas')
+os.makedirs(ALPHAS_DIR, exist_ok=True)
+DB_PATH = os.path.join(ALPHAS_DIR, 'alpha_results.db')
+
+engine = create_engine(f"sqlite:///{DB_PATH}")
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 DBSession = Session()
