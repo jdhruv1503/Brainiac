@@ -4,11 +4,20 @@ from schemas import Alpha
 from math import ceil
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ALPHAS_DIR = os.path.join(BASE_DIR, "alphas")
+LOGGING_DIR = os.path.join(BASE_DIR, "logging")
+CREDS_DIR = os.path.join(BASE_DIR, "creds")
+
+os.makedirs(ALPHAS_DIR, exist_ok=True)
+os.makedirs(LOGGING_DIR, exist_ok=True)
+os.makedirs(CREDS_DIR, exist_ok=True)
+
 credfiles = []
 
-for file in os.listdir("creds"):
+for file in os.listdir(CREDS_DIR):
     if file.endswith(".json"):
-        credfiles.append(f"creds/{file}")
+        credfiles.append(os.path.join(CREDS_DIR, file))
 
 
 sessions = [

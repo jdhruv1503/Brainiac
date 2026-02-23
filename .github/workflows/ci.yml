@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.lock ]; then pip install -r requirements.lock; else pip install -r requirements.txt; fi
+
+      - name: Compile all
+        run: python -m compileall AlphaGenerator Simulation
+
+      - name: Import smoke test
+        run: |
+          python -c "import sys; sys.path.append('Simulation'); import main as simulation_main; print('simulation import ok')"
+          python -c "import sys; sys.path.append('AlphaGenerator'); import send_to_simulation; print('alpha sender import ok')"

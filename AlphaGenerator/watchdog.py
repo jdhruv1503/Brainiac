@@ -1,10 +1,17 @@
 import subprocess
 import asyncio
+import os
 from generate_from_research_pdfs import research_main
 from generate_from_strategies import strategies_main
 from send_to_simulation import simsend as simulation_send
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STRATEGIES_DIR = os.path.join(BASE_DIR, "Strategies")
+
+
 async def scheduler():
+    os.makedirs(STRATEGIES_DIR, exist_ok=True)
+
     while True:
         print("Pulling latest")
         try:
